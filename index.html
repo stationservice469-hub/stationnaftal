@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- saved from url=(0051)file:///Users/station/Downloads/station_app_10.html -->
+<!-- saved from url=(0051)file:///Users/station/Downloads/station_app_11.html -->
 <html lang="fr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -142,11 +142,11 @@ select.fi{cursor:pointer;}
   </div>
   <nav class="nav">
     <div class="nav-s">Principal</div>
-    <div class="ni on" onclick="nav(&#39;db&#39;)"><span class="ic">📊</span> Tableau de Bord</div>
+    <div class="ni" onclick="nav(&#39;db&#39;)"><span class="ic">📊</span> Tableau de Bord</div>
     <div class="ni" onclick="nav(&#39;saisie&#39;)"><span class="ic">✏️</span> Saisie Journalière</div>
     <div class="ni" onclick="nav(&#39;hist&#39;)"><span class="ic">📅</span> Historique</div>
     <div class="nav-s">Gestion</div>
-    <div class="ni" onclick="nav(&#39;cuves&#39;)"><span class="ic">🛢️</span> Cuves &amp; Stocks</div>
+    <div class="ni on" onclick="nav(&#39;cuves&#39;)"><span class="ic">🛢️</span> Cuves &amp; Stocks</div>
     <div class="ni" onclick="nav(&#39;credit&#39;)"><span class="ic">💳</span> Crédit Clients</div>
     <div class="nav-s">Analyses</div>
     <div class="ni" onclick="nav(&#39;rapport&#39;)"><span class="ic">📈</span> Rapport</div>
@@ -163,7 +163,7 @@ select.fi{cursor:pointer;}
 
 <main class="main">
   <div class="topbar">
-    <div><div class="tb-t" id="pt">Tableau de Bord</div><div class="tb-s" id="ps">Vue d'ensemble — Station Naftal BENSAKHRIA</div></div>
+    <div><div class="tb-t" id="pt">Cuves &amp; Stocks</div><div class="tb-s" id="ps">6 cuves — Niveaux et commandes</div></div>
     <div class="tb-r">
       <span class="badge bg2" id="tb-mois">Mai 2026</span>
       <span class="badge bo" id="tb-jours">30 jours</span>
@@ -174,7 +174,7 @@ select.fi{cursor:pointer;}
   <div class="content">
 
   <!-- DASHBOARD -->
-  <div class="page on" id="page-db">
+  <div class="page" id="page-db">
     <div class="db-banner">☁️ Données sauvegardées en temps réel sur Supabase — accessibles depuis n'importe quel appareil.</div>
     <div class="sec" id="db-title">Résumé — Mai 2026</div>
     <div class="g4">
@@ -338,7 +338,7 @@ select.fi{cursor:pointer;}
   </div>
 
   <!-- CUVES -->
-  <div class="page" id="page-cuves">
+  <div class="page on" id="page-cuves">
     <div class="sec">Niveaux actuels</div>
     <div id="cuves-grid"><div class="g3"><div class="card"><div class="cl">Gasoil — Cuve 1</div><div class="cv md" style="color:#5BB8E8;margin-bottom:7px">0 L</div><div class="fb-tr" style="margin-bottom:4px"><div class="fb-fl fd-b" style="width:0%"></div></div><div style="display:flex;justify-content:space-between;font-size:10px;color:var(--muted);margin-bottom:8px"><span>0%</span><span>/ 50 000 L</span></div><span class="st st-r">🔴 CRITIQUE</span></div><div class="card"><div class="cl">Gasoil — Cuve 2</div><div class="cv md" style="color:#5BB8E8;margin-bottom:7px">0 L</div><div class="fb-tr" style="margin-bottom:4px"><div class="fb-fl fd-b" style="width:0%"></div></div><div style="display:flex;justify-content:space-between;font-size:10px;color:var(--muted);margin-bottom:8px"><span>0%</span><span>/ 50 000 L</span></div><span class="st st-r">🔴 CRITIQUE</span></div><div class="card"><div class="cl">Gasoil — Cuve 3</div><div class="cv md" style="color:#5BB8E8;margin-bottom:7px">0 L</div><div class="fb-tr" style="margin-bottom:4px"><div class="fb-fl fd-b" style="width:0%"></div></div><div style="display:flex;justify-content:space-between;font-size:10px;color:var(--muted);margin-bottom:8px"><span>0%</span><span>/ 30 000 L</span></div><span class="st st-r">🔴 CRITIQUE</span></div><div class="card"><div class="cl">Essence — Cuve 1</div><div class="cv md" style="color:var(--gold);margin-bottom:7px">0 L</div><div class="fb-tr" style="margin-bottom:4px"><div class="fb-fl fd-b" style="width:0%"></div></div><div style="display:flex;justify-content:space-between;font-size:10px;color:var(--muted);margin-bottom:8px"><span>0%</span><span>/ 30 000 L</span></div><span class="st st-r">🔴 CRITIQUE</span></div><div class="card"><div class="cl">Essence — Cuve 2</div><div class="cv md" style="color:var(--gold);margin-bottom:7px">0 L</div><div class="fb-tr" style="margin-bottom:4px"><div class="fb-fl fd-b" style="width:0%"></div></div><div style="display:flex;justify-content:space-between;font-size:10px;color:var(--muted);margin-bottom:8px"><span>0%</span><span>/ 30 000 L</span></div><span class="st st-r">🔴 CRITIQUE</span></div><div class="card"><div class="cl">GPL — Cuve 1</div><div class="cv md" style="color:#2ECC71;margin-bottom:7px">0 L</div><div class="fb-tr" style="margin-bottom:4px"><div class="fb-fl fd-b" style="width:0%"></div></div><div style="display:flex;justify-content:space-between;font-size:10px;color:var(--muted);margin-bottom:8px"><span>0%</span><span>/ 20 000 L</span></div><span class="st st-r">🔴 CRITIQUE</span></div><div class="card"><div class="cl">Gasoil — Cuve 1</div><div class="cv md" style="color:#5BB8E8;margin-bottom:7px">0 L</div><div class="fb-tr" style="margin-bottom:4px"><div class="fb-fl fd-b" style="width:0%"></div></div><div style="display:flex;justify-content:space-between;font-size:10px;color:var(--muted);margin-bottom:8px"><span>0%</span><span>/ 50 000 L</span></div><span class="st st-r">🔴 CRITIQUE</span></div><div class="card"><div class="cl">Gasoil — Cuve 2</div><div class="cv md" style="color:#5BB8E8;margin-bottom:7px">0 L</div><div class="fb-tr" style="margin-bottom:4px"><div class="fb-fl fd-b" style="width:0%"></div></div><div style="display:flex;justify-content:space-between;font-size:10px;color:var(--muted);margin-bottom:8px"><span>0%</span><span>/ 50 000 L</span></div><span class="st st-r">🔴 CRITIQUE</span></div><div class="card"><div class="cl">Gasoil — Cuve 3</div><div class="cv md" style="color:#5BB8E8;margin-bottom:7px">0 L</div><div class="fb-tr" style="margin-bottom:4px"><div class="fb-fl fd-b" style="width:0%"></div></div><div style="display:flex;justify-content:space-between;font-size:10px;color:var(--muted);margin-bottom:8px"><span>0%</span><span>/ 30 000 L</span></div><span class="st st-r">🔴 CRITIQUE</span></div><div class="card"><div class="cl">Essence — Cuve 1</div><div class="cv md" style="color:var(--gold);margin-bottom:7px">0 L</div><div class="fb-tr" style="margin-bottom:4px"><div class="fb-fl fd-b" style="width:0%"></div></div><div style="display:flex;justify-content:space-between;font-size:10px;color:var(--muted);margin-bottom:8px"><span>0%</span><span>/ 30 000 L</span></div><span class="st st-r">🔴 CRITIQUE</span></div><div class="card"><div class="cl">Essence — Cuve 2</div><div class="cv md" style="color:var(--gold);margin-bottom:7px">0 L</div><div class="fb-tr" style="margin-bottom:4px"><div class="fb-fl fd-b" style="width:0%"></div></div><div style="display:flex;justify-content:space-between;font-size:10px;color:var(--muted);margin-bottom:8px"><span>0%</span><span>/ 30 000 L</span></div><span class="st st-r">🔴 CRITIQUE</span></div><div class="card"><div class="cl">GPL — Cuve 1</div><div class="cv md" style="color:#2ECC71;margin-bottom:7px">0 L</div><div class="fb-tr" style="margin-bottom:4px"><div class="fb-fl fd-b" style="width:0%"></div></div><div style="display:flex;justify-content:space-between;font-size:10px;color:var(--muted);margin-bottom:8px"><span>0%</span><span>/ 20 000 L</span></div><span class="st st-r">🔴 CRITIQUE</span></div></div></div>
     <div class="sec">Prévision commande</div>
@@ -360,13 +360,13 @@ select.fi{cursor:pointer;}
   <!-- CREDIT -->
   <div class="page" id="page-credit">
     <div class="g4" style="margin-bottom:16px">
-      <div class="card"><div class="cl">Total Dû</div><div class="cv rd md" id="cr-total">—</div><div class="cs" id="cr-nb">—</div></div>
-      <div class="card"><div class="cl">🔴 En cours</div><div class="cv md" style="color:#E74C3C" id="cr-retard">—</div><div class="cs">À recouvrer</div></div>
-      <div class="card"><div class="cl">🟡 Partiel</div><div class="cv md gld" id="cr-partiel">—</div><div class="cs">En règlement</div></div>
-      <div class="card"><div class="cl">✅ Soldés</div><div class="cv grn md" id="cr-solde">—</div><div class="cs">Comptes soldés</div></div>
+      <div class="card"><div class="cl">Total Dû</div><div class="cv rd md" id="cr-total">-663 569 DA</div><div class="cs" id="cr-nb">67 clients</div></div>
+      <div class="card"><div class="cl">🔴 En cours</div><div class="cv md" style="color:#E74C3C" id="cr-retard">2 751 327 DA</div><div class="cs">À recouvrer</div></div>
+      <div class="card"><div class="cl">🟡 Partiel</div><div class="cv md gld" id="cr-partiel">-73 792 DA</div><div class="cs">En règlement</div></div>
+      <div class="card"><div class="cl">✅ Soldés</div><div class="cv grn md" id="cr-solde">14 clients</div><div class="cs">Comptes soldés</div></div>
     </div>
 
-    <div id="cr-monthly" style="margin-bottom:16px"></div>
+    <div id="cr-monthly" style="margin-bottom:16px"><div class="sec" style="margin-top:0">Résumé mensuel crédit</div><div style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:16px"><div class="card" style="flex:1;min-width:120px;padding:11px 13px"><div class="cl">Février</div><div style="font-family:&#39;Syne&#39;,sans-serif;font-size:15px;font-weight:700;color:var(--gold)">8 295 001 DA</div><div style="font-size:10.5px;color:var(--muted)">43 clients</div></div><div class="card" style="flex:1;min-width:120px;padding:11px 13px"><div class="cl">Mars</div><div style="font-family:&#39;Syne&#39;,sans-serif;font-size:15px;font-weight:700;color:var(--gold)">4 001 720 DA</div><div style="font-size:10.5px;color:var(--muted)">13 clients</div></div><div class="card" style="flex:1;min-width:120px;padding:11px 13px;border-color:rgba(212,160,23,.3)"><div class="cl">Total annuel dû</div><div style="font-family:&#39;Syne&#39;,sans-serif;font-size:15px;font-weight:700;color:#E74C3C">12 296 721 DA</div></div></div></div>
 
     <div class="add-form">
       <div class="add-form-t">➕ Nouveau client</div>
@@ -390,7 +390,7 @@ select.fi{cursor:pointer;}
 
     <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;margin-bottom:11px">
       <div class="filters">
-        <button class="btn btn-s btn-sm" onclick="filtreC(&#39;all&#39;)">Tous (<span id="fc-nb">—</span>)</button>
+        <button class="btn btn-s btn-sm" onclick="filtreC(&#39;all&#39;)">Tous (<span id="fc-nb">67</span>)</button>
         <button class="btn btn-s btn-sm" onclick="filtreC(&#39;retard&#39;)">🔴 En cours</button>
         <button class="btn btn-s btn-sm" onclick="filtreC(&#39;partiel&#39;)">🟡 Partiel</button>
         <button class="btn btn-s btn-sm" onclick="filtreC(&#39;solde&#39;)">✅ Soldés</button>
@@ -414,9 +414,880 @@ select.fi{cursor:pointer;}
           <th style="background:rgba(212,160,23,.05)">Nov</th><th style="background:rgba(212,160,23,.05)">Déc</th>
         </tr>
       </thead>
-      <tbody id="credit-body"></tbody>
+      <tbody id="credit-body"><tr>
+      <td class="mn" style="color:var(--muted)">1</td>
+      <td class="bd2">RAFES FAICEL</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--gold)">19 000</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">19 000 DA</td>
+      <td class="mn" style="color:#2ECC71">9 000 DA</td>
+      <td class="mn bd2" style="color:#E74C3C">10 000 DA</td>
+      <td><span class="st st-w">🟡 Partiel</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(1)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(1)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(1)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">2</td>
+      <td class="bd2">OMRAN MOHAMED</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--gold)">282 800</td><td class="mn" style="color:var(--gold)">337 200</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">620 000 DA</td>
+      <td class="mn" style="color:#2ECC71">1 850 000 DA</td>
+      <td class="mn bd2" style="color:#2ECC71">✓ 0</td>
+      <td><span class="st st-ok">✅ Soldé</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(2)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(2)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(2)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">3</td>
+      <td class="bd2">BENAJINA AMHAMED</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--gold)">301 600</td><td class="mn" style="color:var(--gold)">238 950</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">540 550 DA</td>
+      <td class="mn" style="color:#2ECC71">540 550 DA</td>
+      <td class="mn bd2" style="color:#2ECC71">✓ 0</td>
+      <td><span class="st st-ok">✅ Soldé</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(3)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(3)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(3)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">4</td>
+      <td class="bd2">ISANI ABDELDJABAR</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--gold)">17 600</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">17 600 DA</td>
+      <td class="mn" style="color:#2ECC71">156 400 DA</td>
+      <td class="mn bd2" style="color:#2ECC71">✓ 0</td>
+      <td><span class="st st-ok">✅ Soldé</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(4)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(4)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(4)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">5</td>
+      <td class="bd2">SAREL ALADJILE</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--gold)">1 317 110</td><td class="mn" style="color:var(--gold)">1 236 620</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">2 553 730 DA</td>
+      <td class="mn" style="color:#2ECC71">2 274 960 DA</td>
+      <td class="mn bd2" style="color:#E74C3C">278 770 DA</td>
+      <td><span class="st st-w">🟡 Partiel</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(5)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(5)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(5)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">6</td>
+      <td class="bd2">BENAMARA ELARBI</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--gold)">507 850</td><td class="mn" style="color:var(--gold)">639 000</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">1 146 850 DA</td>
+      <td class="mn" style="color:#2ECC71">709 550 DA</td>
+      <td class="mn bd2" style="color:#E74C3C">437 300 DA</td>
+      <td><span class="st st-w">🟡 Partiel</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(6)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(6)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(6)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">7</td>
+      <td class="bd2">BENALOU ABDELKADDER</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--gold)">776 700</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">776 700 DA</td>
+      <td class="mn" style="color:#2ECC71">1 467 150 DA</td>
+      <td class="mn bd2" style="color:#2ECC71">✓ 0</td>
+      <td><span class="st st-ok">✅ Soldé</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(7)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(7)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(7)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">8</td>
+      <td class="bd2">BENALOU HOUCINE</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--gold)">222 000</td><td class="mn" style="color:var(--gold)">188 300</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">410 300 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">410 300 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(8)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(8)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(8)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">9</td>
+      <td class="bd2">BENALOU RACHED</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--gold)">300 750</td><td class="mn" style="color:var(--gold)">269 120</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">569 870 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">569 870 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(9)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(9)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(9)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">10</td>
+      <td class="bd2">BENALOU DJELOUL</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--gold)">235 600</td><td class="mn" style="color:var(--gold)">147 600</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">383 200 DA</td>
+      <td class="mn" style="color:#2ECC71">800 000 DA</td>
+      <td class="mn bd2" style="color:#2ECC71">✓ 0</td>
+      <td><span class="st st-w">🟡 Partiel</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(10)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(10)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(10)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">11</td>
+      <td class="bd2">ZEROUFI ABDELKADER</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--gold)">97 350</td><td class="mn" style="color:var(--gold)">93 110</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">190 460 DA</td>
+      <td class="mn" style="color:#2ECC71">1 206 860 DA</td>
+      <td class="mn bd2" style="color:#2ECC71">✓ 0</td>
+      <td><span class="st st-ok">✅ Soldé</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(11)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(11)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(11)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">12</td>
+      <td class="bd2">ZEROUFI DJILALI</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--gold)">91 820</td><td class="mn" style="color:var(--gold)">121 260</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">213 080 DA</td>
+      <td class="mn" style="color:#2ECC71">299 130 DA</td>
+      <td class="mn bd2" style="color:#2ECC71">✓ 0</td>
+      <td><span class="st st-ok">✅ Soldé</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(12)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(12)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(12)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">13</td>
+      <td class="bd2">ZEROUFI GHALI</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--gold)">17 500</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">17 500 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">17 500 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(13)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(13)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(13)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">14</td>
+      <td class="bd2">NAAK FARID</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">—</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#2ECC71">✓ 0</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(14)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(14)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(14)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">15</td>
+      <td class="bd2">BENALLOU TAHER</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--gold)">148 950</td><td class="mn" style="color:var(--gold)">193 750</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">342 700 DA</td>
+      <td class="mn" style="color:#2ECC71">200 000 DA</td>
+      <td class="mn bd2" style="color:#E74C3C">142 700 DA</td>
+      <td><span class="st st-w">🟡 Partiel</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(15)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(15)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(15)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">16</td>
+      <td class="bd2">BENALLOU NORDINE</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--gold)">172 950</td><td class="mn" style="color:var(--gold)">266 700</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">439 650 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">439 650 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(16)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(16)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(16)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">17</td>
+      <td class="bd2">CHERDOUDA ABDELKARIM</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">—</td>
+      <td class="mn" style="color:#2ECC71">98 500 DA</td>
+      <td class="mn bd2" style="color:#2ECC71">✓ 0</td>
+      <td><span class="st st-ok">✅ Soldé</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(17)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(17)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(17)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">18</td>
+      <td class="bd2">BENALLOU NEDAR</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--gold)">201 500</td><td class="mn" style="color:var(--gold)">252 610</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">454 110 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">454 110 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(18)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(18)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(18)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">19</td>
+      <td class="bd2">SELAG ABDELKARIM</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--gold)">105 600</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">105 600 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">105 600 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(19)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(19)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(19)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">20</td>
+      <td class="bd2">BENTHRAYA MOHAMED</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--gold)">39 500</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">39 500 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">39 500 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(20)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(20)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(20)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">21</td>
+      <td class="bd2">BENKHAIRA ELCHIKH</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--gold)">74 700</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">74 700 DA</td>
+      <td class="mn" style="color:#2ECC71">133 850 DA</td>
+      <td class="mn bd2" style="color:#2ECC71">✓ 0</td>
+      <td><span class="st st-ok">✅ Soldé</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(21)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(21)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(21)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">22</td>
+      <td class="bd2">CHAWCHI IDRIS</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">—</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#2ECC71">✓ 0</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(22)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(22)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(22)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">23</td>
+      <td class="bd2">AMARI TAHER</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--gold)">154 600</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">154 600 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">154 600 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(23)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(23)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(23)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">24</td>
+      <td class="bd2">HOWARI FOUEAD</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">—</td>
+      <td class="mn" style="color:#2ECC71">100 000 DA</td>
+      <td class="mn bd2" style="color:#2ECC71">✓ 0</td>
+      <td><span class="st st-w">🟡 Partiel</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(24)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(24)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(24)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">25</td>
+      <td class="bd2">MEZWAGH NOURDINE</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">—</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#2ECC71">✓ 0</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(25)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(25)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(25)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">26</td>
+      <td class="bd2">BENHMIDA NOURDINE</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">—</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#2ECC71">✓ 0</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(26)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(26)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(26)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">27</td>
+      <td class="bd2">BENHMED SOURIA</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">—</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#2ECC71">✓ 0</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(27)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(27)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(27)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">28</td>
+      <td class="bd2">BEHIHE AICHA</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">—</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#2ECC71">✓ 0</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(28)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(28)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(28)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">29</td>
+      <td class="bd2">BOUCHOKA AHMED</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">—</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#2ECC71">✓ 0</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(29)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(29)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(29)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">30</td>
+      <td class="bd2">PENALOPE</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">—</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#2ECC71">✓ 0</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(30)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(30)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(30)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">31</td>
+      <td class="bd2">OMARE BOUMERDES</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">—</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#2ECC71">✓ 0</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(31)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(31)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(31)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">32</td>
+      <td class="bd2">HALAFI LAKHDER</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">—</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#2ECC71">✓ 0</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(32)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(32)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(32)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">33</td>
+      <td class="bd2">SONAMAG</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">—</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#2ECC71">✓ 0</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(33)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(33)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(33)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">34</td>
+      <td class="bd2">BENDAHA</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">—</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#2ECC71">✓ 0</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(34)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(34)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(34)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">35</td>
+      <td class="bd2">BALADIA MACHERASFA</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">—</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#2ECC71">✓ 0</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(35)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(35)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(35)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">36</td>
+      <td class="bd2">MOHAMED ALWAHRANI</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">—</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#2ECC71">✓ 0</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(36)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(36)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(36)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">37</td>
+      <td class="bd2">PILOT RAHOUIA</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--gold)">31 800</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">31 800 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">31 800 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(37)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(37)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(37)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">38</td>
+      <td class="bd2">PILOT MACHERASFA</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--gold)">93 000</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">93 000 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">93 000 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(38)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(38)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(38)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">39</td>
+      <td class="bd2">BALADIA WADESLAM</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--gold)">271 150</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">271 150 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">271 150 DA</td>
+      <td><span class="st st-w">🟡 Partiel</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(39)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(39)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(39)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">40</td>
+      <td class="bd2">ELHIMAYA ALMADANIA</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--gold)">7 780</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">7 780 DA</td>
+      <td class="mn" style="color:#2ECC71">7 500 DA</td>
+      <td class="mn bd2" style="color:#E74C3C">280 DA</td>
+      <td><span class="st st-w">🟡 Partiel</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(40)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(40)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(40)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">41</td>
+      <td class="bd2">DAREK MACHERASFA</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--gold)">21 846</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">21 846 DA</td>
+      <td class="mn" style="color:#2ECC71">43 600 DA</td>
+      <td class="mn bd2" style="color:#2ECC71">✓ 0</td>
+      <td><span class="st st-ok">✅ Soldé</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(41)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(41)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(41)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">42</td>
+      <td class="bd2">K-DAREK MACHEASFA</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--gold)">2 697</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">2 697 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">2 697 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(42)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(42)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(42)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">43</td>
+      <td class="bd2">DARK RAHOUIA</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--gold)">24 986</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">24 986 DA</td>
+      <td class="mn" style="color:#2ECC71">3 100 DA</td>
+      <td class="mn bd2" style="color:#E74C3C">21 886 DA</td>
+      <td><span class="st st-w">🟡 Partiel</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(43)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(43)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(43)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">44</td>
+      <td class="bd2">DAREK BENAMMAR</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--gold)">17 732</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">17 732 DA</td>
+      <td class="mn" style="color:#2ECC71">31 000 DA</td>
+      <td class="mn bd2" style="color:#2ECC71">✓ 0</td>
+      <td><span class="st st-w">🟡 Partiel</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(44)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(44)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(44)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">45</td>
+      <td class="bd2">ONA</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--gold)">14 500</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">14 500 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">14 500 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(45)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(45)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(45)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">46</td>
+      <td class="bd2">BENNEDJMA HOUCINE</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">—</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#2ECC71">✓ 0</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(46)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(46)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(46)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">47</td>
+      <td class="bd2">BENZINEB ADA</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">—</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#2ECC71">✓ 0</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(47)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(47)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(47)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">48</td>
+      <td class="bd2">FALAH BENTRAI</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">—</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#2ECC71">✓ 0</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(48)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(48)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(48)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">49</td>
+      <td class="bd2">AHMED SAIF</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">—</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#2ECC71">✓ 0</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(49)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(49)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(49)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">50</td>
+      <td class="bd2">SLIMANE ALFATMI</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--gold)">864 590</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">864 590 DA</td>
+      <td class="mn" style="color:#2ECC71">1 276 800 DA</td>
+      <td class="mn bd2" style="color:#2ECC71">✓ 0</td>
+      <td><span class="st st-w">🟡 Partiel</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(50)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(50)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(50)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">51</td>
+      <td class="bd2">CRIDIT NP</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">—</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#2ECC71">✓ 0</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(51)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(51)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(51)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">52</td>
+      <td class="bd2">BOUKHERSIN AHMED</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--gold)">87 000</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">87 000 DA</td>
+      <td class="mn" style="color:#2ECC71">111 500 DA</td>
+      <td class="mn bd2" style="color:#2ECC71">✓ 0</td>
+      <td><span class="st st-w">🟡 Partiel</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(52)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(52)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(52)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">53</td>
+      <td class="bd2">GATAZ MILOUDE</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--gold)">330 900</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">330 900 DA</td>
+      <td class="mn" style="color:#2ECC71">600 000 DA</td>
+      <td class="mn bd2" style="color:#2ECC71">✓ 0</td>
+      <td><span class="st st-w">🟡 Partiel</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(53)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(53)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(53)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">54</td>
+      <td class="bd2">ABDALLI FALEH</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">—</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#2ECC71">✓ 0</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(54)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(54)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(54)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">55</td>
+      <td class="bd2">MEZILI KHALED</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--gold)">3 780</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">3 780 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">3 780 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(55)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(55)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(55)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">56</td>
+      <td class="bd2">ABDELBAR</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">—</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#2ECC71">✓ 0</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(56)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(56)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(56)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">57</td>
+      <td class="bd2">AZAIZE AHMED</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--gold)">45 900</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">45 900 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">45 900 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(57)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(57)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(57)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">58</td>
+      <td class="bd2">AWALI</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--gold)">455 090</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">455 090 DA</td>
+      <td class="mn" style="color:#2ECC71">455 090 DA</td>
+      <td class="mn bd2" style="color:#2ECC71">✓ 0</td>
+      <td><span class="st st-ok">✅ Soldé</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(58)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(58)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(58)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">59</td>
+      <td class="bd2">KHALFA MEJADED</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--gold)">91 500</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">91 500 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">91 500 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(59)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(59)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(59)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">60</td>
+      <td class="bd2">BOUZIANE HABIB</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--gold)">130 100</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">130 100 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">130 100 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(60)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(60)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(60)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">61</td>
+      <td class="bd2">ARARE AMAR</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--gold)">47 120</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">47 120 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">47 120 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(61)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(61)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(61)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">62</td>
+      <td class="bd2">NOURDINE MAHI</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--gold)">88 800</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">88 800 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">88 800 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(62)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(62)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(62)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">63</td>
+      <td class="bd2">SNOUSI ABDELKADER</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--gold)">11 000</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">11 000 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">11 000 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(63)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(63)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(63)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">64</td>
+      <td class="bd2">HOUARI</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--gold)">133 800</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">133 800 DA</td>
+      <td class="mn" style="color:#2ECC71">133 800 DA</td>
+      <td class="mn bd2" style="color:#2ECC71">✓ 0</td>
+      <td><span class="st st-ok">✅ Soldé</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(64)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(64)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(64)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">65</td>
+      <td class="bd2">MADANI</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--gold)">123 100</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">123 100 DA</td>
+      <td class="mn" style="color:#2ECC71">123 100 DA</td>
+      <td class="mn bd2" style="color:#2ECC71">✓ 0</td>
+      <td><span class="st st-ok">✅ Soldé</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(65)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(65)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(65)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">66</td>
+      <td class="bd2">MOSTFAI</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--gold)">150 000</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">150 000 DA</td>
+      <td class="mn" style="color:#2ECC71">150 000 DA</td>
+      <td class="mn bd2" style="color:#2ECC71">✓ 0</td>
+      <td><span class="st st-ok">✅ Soldé</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(66)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(66)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(66)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr>
+      <td class="mn" style="color:var(--muted)">67</td>
+      <td class="bd2">BENSAID</td>
+      <td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--gold)">178 850</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td><td class="mn" style="color:var(--muted)">—</td>
+      <td class="mn bd2">178 850 DA</td>
+      <td class="mn" style="color:#2ECC71">178 850 DA</td>
+      <td class="mn bd2" style="color:#2ECC71">✓ 0</td>
+      <td><span class="st st-ok">✅ Soldé</span></td>
+      <td style="white-space:nowrap;display:flex;gap:4px">
+        <button class="btn btn-s btn-sm" onclick="enrPaiement(67)">💰</button>
+        <button class="btn btn-s btn-sm" onclick="editClient(67)" style="color:#5BB8E8">✏️</button>
+        <button class="btn btn-s btn-sm" onclick="deleteClient(67)" style="color:#E74C3C">🗑️</button>
+      </td>
+    </tr><tr class="tr-tot"><td colspan="2">TOTAL (67 clients)</td><td class="mn">—</td><td class="mn">8 295 001 DA</td><td class="mn">4 001 720 DA</td><td class="mn">—</td><td class="mn">—</td><td class="mn">—</td><td class="mn">—</td><td class="mn">—</td><td class="mn">—</td><td class="mn">—</td><td class="mn">—</td><td class="mn">—</td><td class="mn">12 296 721 DA</td><td class="mn">12 960 290 DA</td><td class="mn">-663 569 DA</td><td colspan="2">—</td></tr></tbody>
     </table></div></div>
-    <div style="font-size:10.5px;color:var(--muted);margin-top:8px" id="cr-count"></div>
+    <div style="font-size:10.5px;color:var(--muted);margin-top:8px" id="cr-count">67 client(s) sur 67</div>
   </div>
 
   <!-- RAPPORT -->
@@ -691,6 +1562,7 @@ async function loadAll() {
     renderCuves();
     renderRapport();
     renderPrev();
+    renderCredit();
     document.getElementById('sync-status').textContent = 'Synchronisé ✓';
   } catch(e) {
     toast('❌ Erreur de connexion Supabase', 'er');
