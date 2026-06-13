@@ -1,0 +1,2111 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)file:///Users/station/Downloads/station_final_1.html -->
+<html lang="fr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>⛽ Station Naftal BENSAKHRIA</title>
+<link href="./index_files/css2" rel="stylesheet">
+<style>
+:root{--navy:#1A3A5C;--deep:#0B1929;--gold:#D4A017;--gold2:#F0C040;--cream:#FDFBF5;--muted:#6B7D8E;--red:#C0392B;--green:#1E8449;--orange:#E67E22;--bd:rgba(255,255,255,0.07);--card:rgba(255,255,255,0.04);}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:'DM Sans',sans-serif;background:#0B1929;color:var(--cream);min-height:100vh;overflow-x:hidden;}
+body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellipse 70% 50% at 12% 0%,rgba(212,160,23,.065),transparent 55%),radial-gradient(ellipse 50% 70% at 88% 100%,rgba(26,58,92,.4),transparent 55%),linear-gradient(158deg,#0B1929 0%,#10203A 50%,#080F1A 100%);z-index:0;pointer-events:none;}
+.app{position:relative;z-index:1;display:flex;min-height:100vh;}
+
+/* SIDEBAR */
+.sb{width:215px;flex-shrink:0;background:rgba(8,20,38,.97);border-right:1px solid rgba(212,160,23,.12);display:flex;flex-direction:column;position:sticky;top:0;height:100vh;backdrop-filter:blur(24px);}
+.sb-logo{padding:22px 18px 16px;border-bottom:1px solid rgba(212,160,23,.1);}
+.sb-logo .ic{font-size:24px;display:block;margin-bottom:5px;}
+.sb-logo .nm{font-family:'Syne',sans-serif;font-size:11.5px;font-weight:700;color:var(--gold);letter-spacing:.07em;text-transform:uppercase;}
+.sb-logo .sm{font-size:10.5px;color:var(--muted);margin-top:1px;}
+.nav{padding:10px 0;flex:1;overflow-y:auto;}
+.nav-s{padding:9px 15px 2px;font-size:9px;font-weight:700;color:rgba(212,160,23,.38);letter-spacing:.13em;text-transform:uppercase;}
+.ni{display:flex;align-items:center;gap:8px;padding:7.5px 15px;cursor:pointer;font-size:12px;color:rgba(253,251,245,.5);transition:all .13s;border-left:2px solid transparent;}
+.ni:hover{color:var(--cream);background:rgba(212,160,23,.04);}
+.ni.on{color:var(--gold);background:rgba(212,160,23,.07);border-left-color:var(--gold);font-weight:500;}
+.ni .ic{font-size:13px;width:15px;text-align:center;}
+.sb-foot{padding:12px 15px;border-top:1px solid rgba(212,160,23,.1);font-size:10.5px;color:var(--muted);}
+
+/* MAIN */
+.main{flex:1;display:flex;flex-direction:column;min-width:0;}
+.topbar{background:rgba(8,20,38,.8);border-bottom:1px solid rgba(212,160,23,.1);padding:12px 26px;display:flex;align-items:center;justify-content:space-between;backdrop-filter:blur(20px);position:sticky;top:0;z-index:10;}
+.tb-t{font-family:'Syne',sans-serif;font-size:16px;font-weight:700;}
+.tb-s{font-size:11px;color:var(--muted);margin-top:1px;}
+.tb-r{display:flex;gap:7px;align-items:center;flex-wrap:wrap;}
+.badge{font-size:10.5px;font-weight:600;padding:3px 8px;border-radius:20px;}
+.bw{background:rgba(192,57,43,.18);border:1px solid rgba(192,57,43,.32);color:#E74C3C;}
+.bo{background:rgba(30,132,73,.14);border:1px solid rgba(30,132,73,.26);color:#27AE60;}
+.bg2{background:rgba(212,160,23,.11);border:1px solid rgba(212,160,23,.22);color:var(--gold);}
+
+/* CONTENT */
+.content{padding:22px 26px;flex:1;}
+.page{display:none;}.page.on{display:block;}
+
+/* SECTION TITLE */
+.sec{font-family:'Syne',sans-serif;font-size:9.5px;font-weight:700;color:rgba(212,160,23,.5);letter-spacing:.13em;text-transform:uppercase;margin:22px 0 11px;}
+.sec:first-child{margin-top:0;}
+
+/* GRIDS */
+.g4{display:grid;grid-template-columns:repeat(4,1fr);gap:11px;}
+.g3{display:grid;grid-template-columns:repeat(3,1fr);gap:11px;}
+.g2{display:grid;grid-template-columns:repeat(2,1fr);gap:11px;}
+
+/* CARDS */
+.card{background:var(--card);border:1px solid var(--bd);border-radius:9px;padding:15px 17px;transition:border-color .18s;}
+.card:hover{border-color:rgba(212,160,23,.16);}
+.cl{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em;margin-bottom:4px;}
+.cv{font-family:'Syne',sans-serif;font-size:21px;font-weight:700;line-height:1.1;}
+.cv.gld{color:var(--gold);}
+.cv.grn{color:#2ECC71;}
+.cv.rd{color:#E74C3C;}
+.cv.md{font-size:16px;}
+.cv.sm{font-size:14px;}
+.cs{font-size:10.5px;color:var(--muted);margin-top:3px;}
+.ct{font-size:10.5px;margin-top:7px;padding-top:7px;border-top:1px solid rgba(255,255,255,.05);}
+
+/* TABLE */
+.tw{background:rgba(255,255,255,.025);border:1px solid var(--bd);border-radius:9px;overflow:hidden;}
+.tw-scroll{overflow-x:auto;}
+table{width:100%;border-collapse:collapse;}
+thead tr{background:rgba(26,58,92,.5);border-bottom:1px solid rgba(212,160,23,.12);}
+th{padding:9px 12px;text-align:left;font-size:9px;font-weight:700;color:rgba(212,160,23,.6);letter-spacing:.09em;text-transform:uppercase;white-space:nowrap;}
+td{padding:8px 12px;font-size:11.5px;border-bottom:1px solid rgba(255,255,255,.033);color:rgba(253,251,245,.78);}
+tr:last-child td{border-bottom:none;}
+tr:hover td{background:rgba(212,160,23,.022);}
+.mn{font-family:'DM Mono',monospace;font-size:10.5px;}
+.bd2{font-weight:600;color:var(--cream);}
+.tr-tot td{background:rgba(26,58,92,.45);font-weight:700;color:var(--gold);border-top:1px solid rgba(212,160,23,.17);}
+
+/* STATUS */
+.st{display:inline-flex;align-items:center;gap:3px;font-size:10px;font-weight:600;padding:2px 7px;border-radius:20px;}
+.st-ok{background:rgba(30,132,73,.13);color:#2ECC71;}
+.st-w{background:rgba(212,160,23,.13);color:var(--gold);}
+.st-r{background:rgba(192,57,43,.13);color:#E74C3C;}
+.st-n{background:rgba(255,255,255,.06);color:var(--muted);}
+
+/* FORM */
+.fg{display:flex;flex-direction:column;gap:4px;}
+.fl{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em;font-weight:500;}
+.fi{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08);border-radius:6px;padding:8px 11px;font-size:12px;color:var(--cream);font-family:'DM Mono',monospace;transition:border-color .14s;outline:none;width:100%;}
+.fi:focus{border-color:rgba(212,160,23,.42);background:rgba(212,160,23,.03);}
+.fi::placeholder{color:rgba(255,255,255,.15);}
+.fi[readonly]{opacity:.5;cursor:default;}
+select.fi{cursor:pointer;}
+
+/* PUMP TABLE */
+.pt{width:100%;border-collapse:collapse;}
+.pt th{padding:7px 10px;text-align:left;font-size:9px;font-weight:700;color:rgba(212,160,23,.55);letter-spacing:.09em;text-transform:uppercase;border-bottom:1px solid rgba(212,160,23,.1);}
+.pt td{padding:5px 6px;}
+.p-tag{display:inline-block;font-size:9.5px;font-weight:600;padding:2px 6px;border-radius:4px;}
+.tg{background:rgba(58,143,192,.18);color:#5BB8E8;}
+.te{background:rgba(212,160,23,.13);color:var(--gold);}
+.tp{background:rgba(30,132,73,.14);color:#2ECC71;}
+
+/* FUEL BARS */
+.fb{margin-bottom:11px;}
+.fb:last-child{margin-bottom:0;}
+.fb-top{display:flex;justify-content:space-between;font-size:11.5px;margin-bottom:4px;}
+.fb-nm{font-weight:500;}
+.fb-vl{font-family:'DM Mono',monospace;font-size:10.5px;color:var(--muted);}
+.fb-tr{height:5px;background:rgba(255,255,255,.07);border-radius:10px;overflow:hidden;}
+.fb-fl{height:100%;border-radius:10px;transition:width .8s cubic-bezier(.4,0,.2,1);}
+.fg-bar{background:linear-gradient(90deg,#3A8FC0,#5BB8E8);}
+.fe-bar{background:linear-gradient(90deg,#D4A017,#F0C040);}
+.fp-bar{background:linear-gradient(90deg,#27AE60,#58D68D);}
+.fd-bar{background:linear-gradient(90deg,#C0392B,#E74C3C);}
+.fw-bar{background:linear-gradient(90deg,#E67E22,#F39C12);}
+
+/* CHART */
+.chart{display:flex;align-items:flex-end;gap:3px;height:100px;padding-bottom:17px;}
+.cb-w{flex:1;display:flex;flex-direction:column;align-items:center;gap:2px;height:100%;justify-content:flex-end;}
+.cb{width:100%;border-radius:3px 3px 0 0;background:linear-gradient(180deg,rgba(212,160,23,.72),rgba(212,160,23,.28));min-height:3px;cursor:pointer;transition:background .13s;}
+.cb.best{background:linear-gradient(180deg,#2ECC71,rgba(46,204,113,.42));}
+.cb.low{background:linear-gradient(180deg,#E74C3C,rgba(231,76,60,.32));}
+.cx{font-size:7.5px;color:var(--muted);font-family:'DM Mono',monospace;}
+
+/* VALIDATION BOX */
+.vb{padding:9px 13px;border-radius:7px;font-size:12px;font-weight:500;display:flex;align-items:center;gap:7px;margin-top:9px;}
+.vb-ok{background:rgba(30,132,73,.12);border:1px solid rgba(30,132,73,.2);color:#2ECC71;}
+.vb-er{background:rgba(192,57,43,.12);border:1px solid rgba(192,57,43,.2);color:#E74C3C;}
+.vb-n{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.07);color:var(--muted);}
+
+/* BUTTON */
+.btn{display:inline-flex;align-items:center;gap:6px;padding:9px 16px;border-radius:7px;font-size:12px;font-weight:600;cursor:pointer;border:none;font-family:'DM Sans',sans-serif;transition:all .13s;}
+.btn-p{background:linear-gradient(135deg,var(--gold),#A87B0A);color:#0B1929;}
+.btn-p:hover{transform:translateY(-1px);box-shadow:0 4px 16px rgba(212,160,23,.28);}
+.btn-s{background:rgba(255,255,255,.055);border:1px solid rgba(255,255,255,.09);color:var(--cream);}
+.btn-s:hover{background:rgba(255,255,255,.08);}
+.btn-sm{padding:6px 12px;font-size:11px;}
+
+/* SEARCH */
+.search-wrap{position:relative;margin-bottom:13px;}
+.search-wrap input{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08);border-radius:7px;padding:8px 12px 8px 34px;font-size:12px;color:var(--cream);outline:none;width:100%;max-width:320px;transition:border-color .14s;}
+.search-wrap input:focus{border-color:rgba(212,160,23,.4);}
+.search-wrap::before{content:'🔍';position:absolute;left:10px;top:50%;transform:translateY(-50%);font-size:12px;}
+
+/* FILTER BTNS */
+.filters{display:flex;gap:7px;margin-bottom:13px;flex-wrap:wrap;}
+
+/* TOAST */
+.toast{position:fixed;bottom:20px;right:20px;z-index:999;background:rgba(8,20,38,.97);border:1px solid rgba(212,160,23,.25);border-radius:8px;padding:12px 15px;font-size:12px;color:var(--cream);display:flex;align-items:center;gap:8px;transform:translateY(65px);opacity:0;transition:all .26s cubic-bezier(.4,0,.2,1);backdrop-filter:blur(20px);max-width:300px;}
+.toast.show{transform:translateY(0);opacity:1;}
+
+/* ADD CLIENT FORM */
+.add-form{background:rgba(212,160,23,.04);border:1px solid rgba(212,160,23,.14);border-radius:9px;padding:16px;margin-bottom:16px;}
+.add-form-title{font-family:'Syne',sans-serif;font-size:11px;font-weight:700;color:var(--gold);letter-spacing:.06em;text-transform:uppercase;margin-bottom:12px;}
+
+::-webkit-scrollbar{width:4px;}::-webkit-scrollbar-thumb{background:rgba(212,160,23,.16);border-radius:10px;}
+</style>
+</head>
+<body>
+<div class="app">
+
+<!-- SIDEBAR -->
+<aside class="sb">
+  <div class="sb-logo">
+    <span class="ic">⛽</span>
+    <div class="nm">Station Naftal</div>
+    <div class="sm">BENSAKHRIA</div>
+  </div>
+  <nav class="nav">
+    <div class="nav-s">Principal</div>
+    <div class="ni on" onclick="nav(&#39;db&#39;)"><span class="ic">📊</span> Tableau de Bord</div>
+    <div class="ni" onclick="nav(&#39;saisie&#39;)"><span class="ic">✏️</span> Saisie Journalière</div>
+    <div class="ni" onclick="nav(&#39;hist&#39;)"><span class="ic">📅</span> Historique Avril</div>
+    <div class="nav-s">Gestion</div>
+    <div class="ni" onclick="nav(&#39;cuves&#39;)"><span class="ic">🛢️</span> Cuves &amp; Stocks</div>
+    <div class="ni" onclick="nav(&#39;credit&#39;)"><span class="ic">💳</span> Crédit Clients</div>
+    <div class="nav-s">Analyses</div>
+    <div class="ni" onclick="nav(&#39;rapport&#39;)"><span class="ic">📈</span> Rapport Mensuel</div>
+    <div class="ni" onclick="nav(&#39;prev&#39;)"><span class="ic">🔮</span> Prévisions Stock</div>
+  </nav>
+  <div class="sb-foot">
+    <div>Avril 2026</div>
+    <div style="margin-top:2px;color:rgba(212,160,23,.55)">30 jours · 11 pompes · 69 clients</div>
+  </div>
+</aside>
+
+<!-- MAIN -->
+<main class="main">
+  <div class="topbar">
+    <div><div class="tb-t" id="pt">Tableau de Bord</div><div class="tb-s" id="ps">Vue d'ensemble — Station Naftal BENSAKHRIA</div></div>
+    <div class="tb-r">
+      <span class="badge bw">⚠️ Écart 310 DA — 23/04</span>
+      <span class="badge bo">✅ 29 / 30 jours OK</span>
+      <span class="badge bg2">💳 69 clients crédit</span>
+    </div>
+  </div>
+
+  <div class="content">
+
+  <!-- ══ DASHBOARD ══ -->
+  <div class="page on" id="page-db">
+    <div class="sec">Résumé du mois — Avril 2026</div>
+    <div class="g4">
+      <div class="card"><div class="cl">Total Ventes</div><div class="cv gld">29,001,570</div><div class="cs">DA — 30 jours</div></div>
+      <div class="card"><div class="cl">Total Encaissements</div><div class="cv">29,001,260</div><div class="cs">DA — écart 310 DA</div></div>
+      <div class="card"><div class="cl">Total Litres Vendus</div><div class="cv md">1,066,584 L</div><div class="cs">11 pompes — 3 carburants</div></div>
+      <div class="card"><div class="cl">Moyenne journalière</div><div class="cv gld md">966,719 DA</div><div class="cs">sur 30 jours</div></div>
+    </div>
+    <div class="g4" style="margin-top:11px">
+      <div class="card"><div class="cl">Gasoil vendu</div><div class="cv md" style="color:#5BB8E8">727,551 L</div><div class="cs">22,554,081 DA — 5 pompes</div></div>
+      <div class="card"><div class="cl">Essence vendue</div><div class="cv md gld">67,972 L</div><div class="cs">3,194,684 DA — 3 pompes</div></div>
+      <div class="card"><div class="cl">GPL vendu</div><div class="cv md grn">271,061 L</div><div class="cs">3,252,732 DA — 3 pompes</div></div>
+      <div class="card"><div class="cl">Crédit total dû</div><div class="cv md rd">19,316,695 DA</div><div class="cs">69 clients · 15.2M en retard</div></div>
+    </div>
+    <div class="sec">Ventes journalières — Avril 2026</div>
+    <div class="card" style="padding:16px 20px">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
+        <span style="font-size:10.5px;color:var(--muted)">DA/jour — survolez pour le détail</span>
+        <div style="display:flex;gap:12px;font-size:10px;color:var(--muted)"><span><span style="color:#2ECC71">█</span> Meilleur</span><span><span style="color:var(--gold)">█</span> Normal</span><span><span style="color:#E74C3C">█</span> Bas</span></div>
+      </div>
+      <div class="chart" id="chart-main"><div class="cb-w" title="01/04: 1,174,473 DA"><div class="cb best" style="height:88%"></div><div class="cx">01</div></div><div class="cb-w" title="02/04: 986,053 DA"><div class="cb " style="height:74%"></div><div class="cx">02</div></div><div class="cb-w" title="03/04: 1,056,044 DA"><div class="cb " style="height:79%"></div><div class="cx">03</div></div><div class="cb-w" title="04/04: 896,706 DA"><div class="cb " style="height:67%"></div><div class="cx">04</div></div><div class="cb-w" title="05/04: 958,945 DA"><div class="cb " style="height:72%"></div><div class="cx">05</div></div><div class="cb-w" title="06/04: 1,073,264 DA"><div class="cb " style="height:80%"></div><div class="cx">06</div></div><div class="cb-w" title="07/04: 1,021,320 DA"><div class="cb " style="height:77%"></div><div class="cx">07</div></div><div class="cb-w" title="08/04: 1,071,875 DA"><div class="cb " style="height:80%"></div><div class="cx">08</div></div><div class="cb-w" title="09/04: 1,031,635 DA"><div class="cb " style="height:77%"></div><div class="cx">09</div></div><div class="cb-w" title="10/04: 944,653 DA"><div class="cb " style="height:71%"></div><div class="cx">10</div></div><div class="cb-w" title="11/04: 848,926 DA"><div class="cb " style="height:64%"></div><div class="cx">11</div></div><div class="cb-w" title="12/04: 943,513 DA"><div class="cb " style="height:71%"></div><div class="cx">12</div></div><div class="cb-w" title="13/04: 964,323 DA"><div class="cb " style="height:72%"></div><div class="cx">13</div></div><div class="cb-w" title="14/04: 1,092,408 DA"><div class="cb " style="height:82%"></div><div class="cx">14</div></div><div class="cb-w" title="15/04: 1,091,617 DA"><div class="cb " style="height:82%"></div><div class="cx">15</div></div><div class="cb-w" title="16/04: 1,127,932 DA"><div class="cb " style="height:85%"></div><div class="cx">16</div></div><div class="cb-w" title="17/04: 928,522 DA"><div class="cb " style="height:70%"></div><div class="cx">17</div></div><div class="cb-w" title="18/04: 846,232 DA"><div class="cb " style="height:63%"></div><div class="cx">18</div></div><div class="cb-w" title="19/04: 971,432 DA"><div class="cb " style="height:73%"></div><div class="cx">19</div></div><div class="cb-w" title="20/04: 1,009,191 DA"><div class="cb " style="height:76%"></div><div class="cx">20</div></div><div class="cb-w" title="21/04: 1,010,636 DA"><div class="cb " style="height:76%"></div><div class="cx">21</div></div><div class="cb-w" title="22/04: 1,059,614 DA"><div class="cb " style="height:79%"></div><div class="cx">22</div></div><div class="cb-w" title="23/04: 852,540 DA"><div class="cb " style="height:64%"></div><div class="cx">23</div></div><div class="cb-w" title="24/04: 882,564 DA"><div class="cb " style="height:66%"></div><div class="cx">24</div></div><div class="cb-w" title="25/04: 764,307 DA"><div class="cb low" style="height:57%"></div><div class="cx">25</div></div><div class="cb-w" title="26/04: 873,763 DA"><div class="cb " style="height:65%"></div><div class="cx">26</div></div><div class="cb-w" title="27/04: 878,769 DA"><div class="cb " style="height:66%"></div><div class="cx">27</div></div><div class="cb-w" title="28/04: 885,304 DA"><div class="cb " style="height:66%"></div><div class="cx">28</div></div><div class="cb-w" title="29/04: 872,139 DA"><div class="cb " style="height:65%"></div><div class="cx">29</div></div><div class="cb-w" title="30/04: 882,870 DA"><div class="cb " style="height:66%"></div><div class="cx">30</div></div></div>
+    </div>
+    <div class="sec">Répartition litres — mois complet</div>
+    <div class="card" id="fuel-db" style="padding:16px 20px">
+    <div class="fb"><div class="fb-top"><span class="fb-nm">⛽ Gasoil — 5 pompes</span><span class="fb-vl">727,551 L (68.2%) — 22,554,081 DA</span></div><div class="fb-tr"><div class="fb-fl fg-bar" style="width:68.21319277243987%"></div></div></div>
+    <div class="fb"><div class="fb-top"><span class="fb-nm">🟡 Essence — 3 pompes (dont 1 inactive)</span><span class="fb-vl">67,972 L (6.4%) — 3,194,684 DA</span></div><div class="fb-tr"><div class="fb-fl fe-bar" style="width:6.3728688973395435%"></div></div></div>
+    <div class="fb" style="margin:0"><div class="fb-top"><span class="fb-nm">🟢 GPL — 3 pompes (dont 1 inactive)</span><span class="fb-vl">271,061 L (25.4%) — 3,252,732 DA</span></div><div class="fb-tr"><div class="fb-fl fp-bar" style="width:25.413938330220592%"></div></div></div></div>
+    <div class="sec">Pompes — Dernière journée enregistrée (30/04)</div>
+    <div class="tw"><div class="tw-scroll"><table>
+      <thead><tr><th>Pompe</th><th>Type</th><th>Relevé Début</th><th>Relevé Fin</th><th>Litres Vendus</th><th>Valeur DA</th><th>Statut</th></tr></thead>
+      <tbody id="pump-last-body"><tr><td class="bd2">Gasoil 1</td><td><span class="p-tag tg">Gasoil</span></td><td class="mn">9,665,161</td><td class="mn">9,666,219</td><td style="font-family:&#39;Syne&#39;,sans-serif;font-weight:700;color:#5BB8E8">1,058 L</td><td class="mn" style="color:var(--muted)">32,798 DA</td><td><span class="st st-ok">Active</span></td></tr><tr><td class="bd2">Gasoil 2</td><td><span class="p-tag tg">Gasoil</span></td><td class="mn">636,870</td><td class="mn">649,909</td><td style="font-family:&#39;Syne&#39;,sans-serif;font-weight:700;color:#5BB8E8">13,039 L</td><td class="mn" style="color:var(--muted)">404,209 DA</td><td><span class="st st-ok">Active</span></td></tr><tr><td class="bd2">Gasoil 3</td><td><span class="p-tag tg">Gasoil</span></td><td class="mn">7,017,476</td><td class="mn">7,018,669</td><td style="font-family:&#39;Syne&#39;,sans-serif;font-weight:700;color:#5BB8E8">1,193 L</td><td class="mn" style="color:var(--muted)">36,983 DA</td><td><span class="st st-ok">Active</span></td></tr><tr><td class="bd2">Gasoil 4</td><td><span class="p-tag tg">Gasoil</span></td><td class="mn">5,954,721</td><td class="mn">5,959,447</td><td style="font-family:&#39;Syne&#39;,sans-serif;font-weight:700;color:#5BB8E8">4,726 L</td><td class="mn" style="color:var(--muted)">146,506 DA</td><td><span class="st st-ok">Active</span></td></tr><tr><td class="bd2">Gasoil 5</td><td><span class="p-tag tg">Gasoil</span></td><td class="mn">6,850,013</td><td class="mn">6,852,634</td><td style="font-family:&#39;Syne&#39;,sans-serif;font-weight:700;color:#5BB8E8">2,621 L</td><td class="mn" style="color:var(--muted)">81,251 DA</td><td><span class="st st-ok">Active</span></td></tr><tr><td class="bd2">Essence 1</td><td><span class="p-tag te">Essence</span></td><td class="mn">1,419,437</td><td class="mn">1,420,248</td><td style="font-family:&#39;Syne&#39;,sans-serif;font-weight:700;color:var(--gold)">811 L</td><td class="mn" style="color:var(--muted)">38,117 DA</td><td><span class="st st-ok">Active</span></td></tr><tr><td class="bd2">Essence 2</td><td><span class="p-tag te">Essence</span></td><td class="mn">3,864,858</td><td class="mn">3,864,858</td><td style="font-family:&#39;Syne&#39;,sans-serif;font-weight:700;color:var(--gold)">0 L</td><td class="mn" style="color:var(--muted)">0 DA</td><td><span class="st st-n">Inactive</span></td></tr><tr><td class="bd2">Essence 3</td><td><span class="p-tag te">Essence</span></td><td class="mn">2,707,698</td><td class="mn">2,708,968</td><td style="font-family:&#39;Syne&#39;,sans-serif;font-weight:700;color:var(--gold)">1,270 L</td><td class="mn" style="color:var(--muted)">59,690 DA</td><td><span class="st st-ok">Active</span></td></tr><tr><td class="bd2">GPL 1</td><td><span class="p-tag tp">GPL</span></td><td class="mn">497,385</td><td class="mn">500,880</td><td style="font-family:&#39;Syne&#39;,sans-serif;font-weight:700;color:#2ECC71">3,495 L</td><td class="mn" style="color:var(--muted)">41,940 DA</td><td><span class="st st-ok">Active</span></td></tr><tr><td class="bd2">GPL 2</td><td><span class="p-tag tp">GPL</span></td><td class="mn">359,283</td><td class="mn">359,283</td><td style="font-family:&#39;Syne&#39;,sans-serif;font-weight:700;color:#2ECC71">0 L</td><td class="mn" style="color:var(--muted)">0 DA</td><td><span class="st st-n">Inactive</span></td></tr><tr><td class="bd2">GPL 3</td><td><span class="p-tag tp">GPL</span></td><td class="mn">2,331,834</td><td class="mn">2,335,282</td><td style="font-family:&#39;Syne&#39;,sans-serif;font-weight:700;color:#2ECC71">3,448 L</td><td class="mn" style="color:var(--muted)">41,376 DA</td><td><span class="st st-ok">Active</span></td></tr></tbody>
+    </table></div></div>
+  </div>
+
+  <!-- ══ SAISIE ══ -->
+  <div class="page" id="page-saisie">
+    <div class="sec">Date et prix carburants</div>
+    <div class="g3">
+      <div class="card fg"><label class="fl">📅 Date du jour</label><input class="fi" type="date" id="s-date"></div>
+      <div class="card">
+        <div class="cl" style="margin-bottom:9px">Prix DA/L — modifiables</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px">
+          <div class="fg"><label class="fl">Gasoil</label><input class="fi" type="number" id="s-pg" value="31" oninput="calcAll()"></div>
+          <div class="fg"><label class="fl">Essence</label><input class="fi" type="number" id="s-pe" value="47" oninput="calcAll()"></div>
+          <div class="fg"><label class="fl">GPL</label><input class="fi" type="number" id="s-pp" value="12" oninput="calcAll()"></div>
+        </div>
+      </div>
+      <div class="card"><div class="cl" style="margin-bottom:7px">Validation en direct</div><div id="v-live" class="vb vb-n"><span>⏳</span> Entrez les relevés pompes</div></div>
+    </div>
+
+    <div class="sec">Relevés pompes — Entrez Début et Fin pour chaque pompe</div>
+    <div class="g3">
+      <!-- GASOIL -->
+      <div class="card" style="grid-column:1/3">
+        <div style="font-size:10.5px;font-weight:700;color:#5BB8E8;margin-bottom:11px;letter-spacing:.05em">⛽ GASOIL — 5 POMPES</div>
+        <table class="pt">
+          <thead><tr><th>Pompe</th><th>Relevé Début</th><th>Relevé Fin</th><th>Litres calculés</th><th>Valeur DA</th></tr></thead>
+          <tbody id="pt-gasoil"><tr><th>Pompe</th><th>Relevé Début</th><th>Relevé Fin</th><th>Litres</th><th>Valeur DA</th></tr><tr>
+    <td style="font-size:11.5px;font-weight:600;white-space:nowrap;padding:5px 8px">⛽ Gasoil 1</td>
+    <td style="padding:4px 5px"><input class="fi" type="number" id="g1d" placeholder="ex: 1234567" oninput="calcAll()" style="width:120px;padding:6px 9px;font-size:11px"></td>
+    <td style="padding:4px 5px"><input class="fi" type="number" id="g1f" placeholder="ex: 1256789" oninput="calcAll()" style="width:120px;padding:6px 9px;font-size:11px"></td>
+    <td style="padding:4px 5px"><input class="fi" id="g1l" readonly="" style="width:80px;padding:6px 8px;font-size:12px;font-weight:700;color:#5BB8E8"></td>
+    <td style="padding:4px 5px"><input class="fi" id="g1v" readonly="" style="width:105px;padding:6px 8px;font-size:10.5px;color:var(--muted)"></td>
+  </tr><tr>
+    <td style="font-size:11.5px;font-weight:600;white-space:nowrap;padding:5px 8px">⛽ Gasoil 2</td>
+    <td style="padding:4px 5px"><input class="fi" type="number" id="g2d" placeholder="ex: 1234567" oninput="calcAll()" style="width:120px;padding:6px 9px;font-size:11px"></td>
+    <td style="padding:4px 5px"><input class="fi" type="number" id="g2f" placeholder="ex: 1256789" oninput="calcAll()" style="width:120px;padding:6px 9px;font-size:11px"></td>
+    <td style="padding:4px 5px"><input class="fi" id="g2l" readonly="" style="width:80px;padding:6px 8px;font-size:12px;font-weight:700;color:#5BB8E8"></td>
+    <td style="padding:4px 5px"><input class="fi" id="g2v" readonly="" style="width:105px;padding:6px 8px;font-size:10.5px;color:var(--muted)"></td>
+  </tr><tr>
+    <td style="font-size:11.5px;font-weight:600;white-space:nowrap;padding:5px 8px">⛽ Gasoil 3</td>
+    <td style="padding:4px 5px"><input class="fi" type="number" id="g3d" placeholder="ex: 1234567" oninput="calcAll()" style="width:120px;padding:6px 9px;font-size:11px"></td>
+    <td style="padding:4px 5px"><input class="fi" type="number" id="g3f" placeholder="ex: 1256789" oninput="calcAll()" style="width:120px;padding:6px 9px;font-size:11px"></td>
+    <td style="padding:4px 5px"><input class="fi" id="g3l" readonly="" style="width:80px;padding:6px 8px;font-size:12px;font-weight:700;color:#5BB8E8"></td>
+    <td style="padding:4px 5px"><input class="fi" id="g3v" readonly="" style="width:105px;padding:6px 8px;font-size:10.5px;color:var(--muted)"></td>
+  </tr><tr>
+    <td style="font-size:11.5px;font-weight:600;white-space:nowrap;padding:5px 8px">⛽ Gasoil 4</td>
+    <td style="padding:4px 5px"><input class="fi" type="number" id="g4d" placeholder="ex: 1234567" oninput="calcAll()" style="width:120px;padding:6px 9px;font-size:11px"></td>
+    <td style="padding:4px 5px"><input class="fi" type="number" id="g4f" placeholder="ex: 1256789" oninput="calcAll()" style="width:120px;padding:6px 9px;font-size:11px"></td>
+    <td style="padding:4px 5px"><input class="fi" id="g4l" readonly="" style="width:80px;padding:6px 8px;font-size:12px;font-weight:700;color:#5BB8E8"></td>
+    <td style="padding:4px 5px"><input class="fi" id="g4v" readonly="" style="width:105px;padding:6px 8px;font-size:10.5px;color:var(--muted)"></td>
+  </tr><tr>
+    <td style="font-size:11.5px;font-weight:600;white-space:nowrap;padding:5px 8px">⛽ Gasoil 5</td>
+    <td style="padding:4px 5px"><input class="fi" type="number" id="g5d" placeholder="ex: 1234567" oninput="calcAll()" style="width:120px;padding:6px 9px;font-size:11px"></td>
+    <td style="padding:4px 5px"><input class="fi" type="number" id="g5f" placeholder="ex: 1256789" oninput="calcAll()" style="width:120px;padding:6px 9px;font-size:11px"></td>
+    <td style="padding:4px 5px"><input class="fi" id="g5l" readonly="" style="width:80px;padding:6px 8px;font-size:12px;font-weight:700;color:#5BB8E8"></td>
+    <td style="padding:4px 5px"><input class="fi" id="g5v" readonly="" style="width:105px;padding:6px 8px;font-size:10.5px;color:var(--muted)"></td>
+  </tr></tbody>
+        </table>
+        <div style="margin-top:10px;padding-top:10px;border-top:1px solid rgba(255,255,255,.06);display:flex;justify-content:space-between;font-size:12px">
+          <span style="color:var(--muted)">Total Gasoil</span>
+          <span style="font-family:&#39;Syne&#39;,sans-serif;font-weight:700;color:#5BB8E8" id="tot-g-sum">0 L — 0 DA</span>
+        </div>
+      </div>
+      <!-- ESSENCE + GPL -->
+      <div class="card">
+        <div style="font-size:10.5px;font-weight:700;color:var(--gold);margin-bottom:11px;letter-spacing:.05em">🟡 ESSENCE — 3 POMPES</div>
+        <table class="pt">
+          <thead><tr><th>Pompe</th><th>Début</th><th>Fin</th><th>Litres</th><th>Valeur</th></tr></thead>
+          <tbody id="pt-ess"><tr><th>Pompe</th><th>Début</th><th>Fin</th><th>Litres</th><th>Valeur</th></tr><tr>
+    <td style="font-size:11.5px;font-weight:600;white-space:nowrap;padding:5px 8px">🟡 Essence 1</td>
+    <td style="padding:4px 5px"><input class="fi" type="number" id="e1d" placeholder="ex: 1234567" oninput="calcAll()" style="width:120px;padding:6px 9px;font-size:11px"></td>
+    <td style="padding:4px 5px"><input class="fi" type="number" id="e1f" placeholder="ex: 1256789" oninput="calcAll()" style="width:120px;padding:6px 9px;font-size:11px"></td>
+    <td style="padding:4px 5px"><input class="fi" id="e1l" readonly="" style="width:80px;padding:6px 8px;font-size:12px;font-weight:700;color:var(--gold)"></td>
+    <td style="padding:4px 5px"><input class="fi" id="e1v" readonly="" style="width:105px;padding:6px 8px;font-size:10.5px;color:var(--muted)"></td>
+  </tr><tr>
+    <td style="font-size:11.5px;font-weight:600;white-space:nowrap;padding:5px 8px">🟡 Essence 2</td>
+    <td style="padding:4px 5px"><input class="fi" type="number" id="e2d" placeholder="ex: 1234567" oninput="calcAll()" style="width:120px;padding:6px 9px;font-size:11px"></td>
+    <td style="padding:4px 5px"><input class="fi" type="number" id="e2f" placeholder="ex: 1256789" oninput="calcAll()" style="width:120px;padding:6px 9px;font-size:11px"></td>
+    <td style="padding:4px 5px"><input class="fi" id="e2l" readonly="" style="width:80px;padding:6px 8px;font-size:12px;font-weight:700;color:var(--gold)"></td>
+    <td style="padding:4px 5px"><input class="fi" id="e2v" readonly="" style="width:105px;padding:6px 8px;font-size:10.5px;color:var(--muted)"></td>
+  </tr><tr>
+    <td style="font-size:11.5px;font-weight:600;white-space:nowrap;padding:5px 8px">🟡 Essence 3</td>
+    <td style="padding:4px 5px"><input class="fi" type="number" id="e3d" placeholder="ex: 1234567" oninput="calcAll()" style="width:120px;padding:6px 9px;font-size:11px"></td>
+    <td style="padding:4px 5px"><input class="fi" type="number" id="e3f" placeholder="ex: 1256789" oninput="calcAll()" style="width:120px;padding:6px 9px;font-size:11px"></td>
+    <td style="padding:4px 5px"><input class="fi" id="e3l" readonly="" style="width:80px;padding:6px 8px;font-size:12px;font-weight:700;color:var(--gold)"></td>
+    <td style="padding:4px 5px"><input class="fi" id="e3v" readonly="" style="width:105px;padding:6px 8px;font-size:10.5px;color:var(--muted)"></td>
+  </tr></tbody>
+        </table>
+        <div style="margin-top:8px;padding-top:8px;border-top:1px solid rgba(255,255,255,.06);display:flex;justify-content:space-between;font-size:11.5px">
+          <span style="color:var(--muted)">Total Essence</span>
+          <span style="font-family:&#39;Syne&#39;,sans-serif;font-weight:700;color:var(--gold)" id="tot-e-sum">0 L — 0 DA</span>
+        </div>
+        <div style="font-size:10.5px;font-weight:700;color:#2ECC71;margin:14px 0 11px;letter-spacing:.05em">🟢 GPL — 3 POMPES</div>
+        <table class="pt">
+          <thead><tr><th>Pompe</th><th>Début</th><th>Fin</th><th>Litres</th><th>Valeur</th></tr></thead>
+          <tbody id="pt-gpl"><tr><th>Pompe</th><th>Début</th><th>Fin</th><th>Litres</th><th>Valeur</th></tr><tr>
+    <td style="font-size:11.5px;font-weight:600;white-space:nowrap;padding:5px 8px">🟢 GPL 1</td>
+    <td style="padding:4px 5px"><input class="fi" type="number" id="p1d" placeholder="ex: 1234567" oninput="calcAll()" style="width:120px;padding:6px 9px;font-size:11px"></td>
+    <td style="padding:4px 5px"><input class="fi" type="number" id="p1f" placeholder="ex: 1256789" oninput="calcAll()" style="width:120px;padding:6px 9px;font-size:11px"></td>
+    <td style="padding:4px 5px"><input class="fi" id="p1l" readonly="" style="width:80px;padding:6px 8px;font-size:12px;font-weight:700;color:#2ECC71"></td>
+    <td style="padding:4px 5px"><input class="fi" id="p1v" readonly="" style="width:105px;padding:6px 8px;font-size:10.5px;color:var(--muted)"></td>
+  </tr><tr>
+    <td style="font-size:11.5px;font-weight:600;white-space:nowrap;padding:5px 8px">🟢 GPL 2</td>
+    <td style="padding:4px 5px"><input class="fi" type="number" id="p2d" placeholder="ex: 1234567" oninput="calcAll()" style="width:120px;padding:6px 9px;font-size:11px"></td>
+    <td style="padding:4px 5px"><input class="fi" type="number" id="p2f" placeholder="ex: 1256789" oninput="calcAll()" style="width:120px;padding:6px 9px;font-size:11px"></td>
+    <td style="padding:4px 5px"><input class="fi" id="p2l" readonly="" style="width:80px;padding:6px 8px;font-size:12px;font-weight:700;color:#2ECC71"></td>
+    <td style="padding:4px 5px"><input class="fi" id="p2v" readonly="" style="width:105px;padding:6px 8px;font-size:10.5px;color:var(--muted)"></td>
+  </tr><tr>
+    <td style="font-size:11.5px;font-weight:600;white-space:nowrap;padding:5px 8px">🟢 GPL 3</td>
+    <td style="padding:4px 5px"><input class="fi" type="number" id="p3d" placeholder="ex: 1234567" oninput="calcAll()" style="width:120px;padding:6px 9px;font-size:11px"></td>
+    <td style="padding:4px 5px"><input class="fi" type="number" id="p3f" placeholder="ex: 1256789" oninput="calcAll()" style="width:120px;padding:6px 9px;font-size:11px"></td>
+    <td style="padding:4px 5px"><input class="fi" id="p3l" readonly="" style="width:80px;padding:6px 8px;font-size:12px;font-weight:700;color:#2ECC71"></td>
+    <td style="padding:4px 5px"><input class="fi" id="p3v" readonly="" style="width:105px;padding:6px 8px;font-size:10.5px;color:var(--muted)"></td>
+  </tr></tbody>
+        </table>
+        <div style="margin-top:8px;padding-top:8px;border-top:1px solid rgba(255,255,255,.06);display:flex;justify-content:space-between;font-size:11.5px">
+          <span style="color:var(--muted)">Total GPL</span>
+          <span style="font-family:&#39;Syne&#39;,sans-serif;font-weight:700;color:#2ECC71" id="tot-p-sum">0 L — 0 DA</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="sec">Totaux ventes pompes</div>
+    <div class="g4">
+      <div class="card"><div class="cl">Total Gasoil</div><div class="cv md" style="color:#5BB8E8" id="t-g-l">0 L</div><div class="cs" id="t-g-da">0 DA</div></div>
+      <div class="card"><div class="cl">Total Essence</div><div class="cv md gld" id="t-e-l">0 L</div><div class="cs" id="t-e-da">0 DA</div></div>
+      <div class="card"><div class="cl">Total GPL</div><div class="cv md grn" id="t-p-l">0 L</div><div class="cs" id="t-p-da">0 DA</div></div>
+      <div class="card"><div class="cl">Total Ventes Pompes</div><div class="cv gld" id="t-v">0 DA</div><div class="cs" id="t-l">0 L</div></div>
+    </div>
+
+    <div class="sec">Encaissements du jour</div>
+    <div class="g2">
+      <div class="card">
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">
+          <div class="fg"><label class="fl">💵 Espèces (Cash)</label><input class="fi" type="number" id="e-esp" placeholder="0 DA" oninput="calcEnc()"></div>
+          <div class="fg"><label class="fl">💳 Carte Naftal / TPE</label><input class="fi" type="number" id="e-tpe" placeholder="0 DA" oninput="calcEnc()"></div>
+          <div class="fg"><label class="fl">📋 Crédit clients accordé</label><input class="fi" type="number" id="e-cred" placeholder="0 DA" oninput="calcEnc()"></div>
+          <div class="fg"><label class="fl">🏢 Comptes entreprises</label><input class="fi" type="number" id="e-comp" placeholder="0 DA" oninput="calcEnc()"></div>
+          <div class="fg"><label class="fl">➕ Autres</label><input class="fi" type="number" id="e-aut" placeholder="0 DA" oninput="calcEnc()"></div>
+          <div class="fg"><label class="fl">✅ Total encaissé</label><input class="fi" id="e-tot" readonly="" placeholder="—"></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="cl" style="margin-bottom:9px">Bilan de la journée</div>
+        <div id="v-enc" class="vb vb-n"><span>⏳</span> Entrez les encaissements</div>
+        <div id="v-ec" class="vb vb-n" style="margin-top:7px"><span>⏳</span> En attente</div>
+        <div class="fg" style="margin-top:13px"><label class="fl">👤 Responsable du jour</label><input class="fi" type="text" id="e-resp" placeholder="Nom de l&#39;employé" style="font-family:&#39;DM Sans&#39;,sans-serif"></div>
+        <div style="display:flex;gap:8px;margin-top:13px;flex-wrap:wrap">
+          <button class="btn btn-p" onclick="valider()">✅ Valider et enregistrer</button>
+          <button class="btn btn-s" onclick="resetSaisie()">🔄 Réinitialiser</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══ HISTORIQUE ══ -->
+  <div class="page" id="page-hist">
+    <div class="sec">Historique journalier — Avril 2026</div>
+    <div class="tw"><div class="tw-scroll"><table>
+      <thead><tr><th>Date</th><th>Gasoil L</th><th>Essence L</th><th>GPL L</th><th>Total L</th><th>Ventes DA</th><th>Encaiss. DA</th><th>Écart DA</th><th>Statut</th></tr></thead>
+      <tbody id="hist-body"><tr style="background:rgba(46,204,113,.025)"><td class="bd2">01/04/2026</td><td class="mn">29,926</td><td class="mn">2,689</td><td class="mn">10,032</td><td class="mn">42,647</td><td class="mn bd2">1,174,473</td><td class="mn">1,174,473</td><td class="mn" style="color:#2ECC71">0</td><td><span class="st st-ok">✅ OK</span></td></tr><tr style="background:"><td class="bd2">02/04/2026</td><td class="mn">23,316</td><td class="mn">2,447</td><td class="mn">12,354</td><td class="mn">38,117</td><td class="mn bd2">986,053</td><td class="mn">986,053</td><td class="mn" style="color:#2ECC71">0</td><td><span class="st st-ok">✅ OK</span></td></tr><tr style="background:"><td class="bd2">03/04/2026</td><td class="mn">25,311</td><td class="mn">3,085</td><td class="mn">10,534</td><td class="mn">38,930</td><td class="mn bd2">1,056,044</td><td class="mn">1,056,044</td><td class="mn" style="color:#2ECC71">0</td><td><span class="st st-ok">✅ OK</span></td></tr><tr style="background:"><td class="bd2">04/04/2026</td><td class="mn">19,257</td><td class="mn">3,129</td><td class="mn">12,723</td><td class="mn">35,109</td><td class="mn bd2">896,706</td><td class="mn">896,706</td><td class="mn" style="color:#2ECC71">0</td><td><span class="st st-ok">✅ OK</span></td></tr><tr style="background:"><td class="bd2">05/04/2026</td><td class="mn">23,604</td><td class="mn">2,831</td><td class="mn">7,841</td><td class="mn">34,276</td><td class="mn bd2">958,945</td><td class="mn">958,945</td><td class="mn" style="color:#2ECC71">0</td><td><span class="st st-ok">✅ OK</span></td></tr><tr style="background:"><td class="bd2">06/04/2026</td><td class="mn">27,702</td><td class="mn">2,278</td><td class="mn">8,953</td><td class="mn">38,933</td><td class="mn bd2">1,073,264</td><td class="mn">1,073,264</td><td class="mn" style="color:#2ECC71">0</td><td><span class="st st-ok">✅ OK</span></td></tr><tr style="background:"><td class="bd2">07/04/2026</td><td class="mn">25,803</td><td class="mn">2,481</td><td class="mn">8,735</td><td class="mn">37,019</td><td class="mn bd2">1,021,320</td><td class="mn">1,021,320</td><td class="mn" style="color:#2ECC71">0</td><td><span class="st st-ok">✅ OK</span></td></tr><tr style="background:"><td class="bd2">08/04/2026</td><td class="mn">26,699</td><td class="mn">2,610</td><td class="mn">10,128</td><td class="mn">39,437</td><td class="mn bd2">1,071,875</td><td class="mn">1,071,875</td><td class="mn" style="color:#2ECC71">0</td><td><span class="st st-ok">✅ OK</span></td></tr><tr style="background:"><td class="bd2">09/04/2026</td><td class="mn">26,231</td><td class="mn">2,315</td><td class="mn">9,139</td><td class="mn">37,685</td><td class="mn bd2">1,031,635</td><td class="mn">1,031,635</td><td class="mn" style="color:#2ECC71">0</td><td><span class="st st-ok">✅ OK</span></td></tr><tr style="background:"><td class="bd2">10/04/2026</td><td class="mn">23,687</td><td class="mn">2,356</td><td class="mn">8,302</td><td class="mn">34,345</td><td class="mn bd2">944,653</td><td class="mn">944,653</td><td class="mn" style="color:#2ECC71">0</td><td><span class="st st-ok">✅ OK</span></td></tr><tr style="background:"><td class="bd2">11/04/2026</td><td class="mn">21,364</td><td class="mn">1,890</td><td class="mn">8,151</td><td class="mn">31,405</td><td class="mn bd2">848,926</td><td class="mn">848,926</td><td class="mn" style="color:#2ECC71">0</td><td><span class="st st-ok">✅ OK</span></td></tr><tr style="background:"><td class="bd2">12/04/2026</td><td class="mn">23,488</td><td class="mn">2,211</td><td class="mn">9,289</td><td class="mn">34,988</td><td class="mn bd2">943,513</td><td class="mn">943,513</td><td class="mn" style="color:#2ECC71">0</td><td><span class="st st-ok">✅ OK</span></td></tr><tr style="background:"><td class="bd2">13/04/2026</td><td class="mn">25,614</td><td class="mn">1,227</td><td class="mn">9,385</td><td class="mn">36,226</td><td class="mn bd2">964,323</td><td class="mn">964,323</td><td class="mn" style="color:#2ECC71">0</td><td><span class="st st-ok">✅ OK</span></td></tr><tr style="background:"><td class="bd2">14/04/2026</td><td class="mn">28,329</td><td class="mn">1,971</td><td class="mn">10,131</td><td class="mn">40,431</td><td class="mn bd2">1,092,408</td><td class="mn">1,092,408</td><td class="mn" style="color:#2ECC71">0</td><td><span class="st st-ok">✅ OK</span></td></tr><tr style="background:"><td class="bd2">15/04/2026</td><td class="mn">27,934</td><td class="mn">2,025</td><td class="mn">10,874</td><td class="mn">40,833</td><td class="mn bd2">1,091,617</td><td class="mn">1,091,617</td><td class="mn" style="color:#2ECC71">0</td><td><span class="st st-ok">✅ OK</span></td></tr><tr style="background:"><td class="bd2">16/04/2026</td><td class="mn">30,033</td><td class="mn">2,039</td><td class="mn">8,423</td><td class="mn">40,495</td><td class="mn bd2">1,127,932</td><td class="mn">1,127,932</td><td class="mn" style="color:#2ECC71">0</td><td><span class="st st-ok">✅ OK</span></td></tr><tr style="background:"><td class="bd2">17/04/2026</td><td class="mn">23,599</td><td class="mn">2,091</td><td class="mn">8,223</td><td class="mn">33,913</td><td class="mn bd2">928,522</td><td class="mn">928,522</td><td class="mn" style="color:#2ECC71">0</td><td><span class="st st-ok">✅ OK</span></td></tr><tr style="background:"><td class="bd2">18/04/2026</td><td class="mn">20,822</td><td class="mn">2,206</td><td class="mn">8,089</td><td class="mn">31,117</td><td class="mn bd2">846,232</td><td class="mn">846,232</td><td class="mn" style="color:#2ECC71">0</td><td><span class="st st-ok">✅ OK</span></td></tr><tr style="background:"><td class="bd2">19/04/2026</td><td class="mn">23,572</td><td class="mn">2,804</td><td class="mn">9,076</td><td class="mn">35,452</td><td class="mn bd2">971,432</td><td class="mn">971,432</td><td class="mn" style="color:#2ECC71">0</td><td><span class="st st-ok">✅ OK</span></td></tr><tr style="background:"><td class="bd2">20/04/2026</td><td class="mn">25,017</td><td class="mn">2,568</td><td class="mn">9,414</td><td class="mn">36,999</td><td class="mn bd2">1,009,191</td><td class="mn">1,009,191</td><td class="mn" style="color:#2ECC71">0</td><td><span class="st st-ok">✅ OK</span></td></tr><tr style="background:"><td class="bd2">21/04/2026</td><td class="mn">26,358</td><td class="mn">1,978</td><td class="mn">8,381</td><td class="mn">36,717</td><td class="mn bd2">1,010,636</td><td class="mn">1,010,636</td><td class="mn" style="color:#2ECC71">0</td><td><span class="st st-ok">✅ OK</span></td></tr><tr style="background:"><td class="bd2">22/04/2026</td><td class="mn">27,520</td><td class="mn">2,186</td><td class="mn">8,646</td><td class="mn">38,352</td><td class="mn bd2">1,059,614</td><td class="mn">1,059,614</td><td class="mn" style="color:#2ECC71">0</td><td><span class="st st-ok">✅ OK</span></td></tr><tr style="background:"><td class="bd2">23/04/2026</td><td class="mn">21,151</td><td class="mn">2,029</td><td class="mn">8,458</td><td class="mn">31,638</td><td class="mn bd2">852,540</td><td class="mn">852,230</td><td class="mn" style="color:#F39C12">310</td><td><span class="st st-w">⚠️ +310 DA</span></td></tr><tr style="background:"><td class="bd2">24/04/2026</td><td class="mn">21,457</td><td class="mn">2,275</td><td class="mn">9,206</td><td class="mn">32,938</td><td class="mn bd2">882,564</td><td class="mn">882,564</td><td class="mn" style="color:#2ECC71">0</td><td><span class="st st-ok">✅ OK</span></td></tr><tr style="background:rgba(231,76,60,.025)"><td class="bd2">25/04/2026</td><td class="mn">19,191</td><td class="mn">1,626</td><td class="mn">7,747</td><td class="mn">28,564</td><td class="mn bd2">764,307</td><td class="mn">764,307</td><td class="mn" style="color:#2ECC71">0</td><td><span class="st st-ok">✅ OK</span></td></tr><tr style="background:"><td class="bd2">26/04/2026</td><td class="mn">20,454</td><td class="mn">2,759</td><td class="mn">9,168</td><td class="mn">32,381</td><td class="mn bd2">873,763</td><td class="mn">873,763</td><td class="mn" style="color:#2ECC71">0</td><td><span class="st st-ok">✅ OK</span></td></tr><tr style="background:"><td class="bd2">27/04/2026</td><td class="mn">22,352</td><td class="mn">1,931</td><td class="mn">7,925</td><td class="mn">32,208</td><td class="mn bd2">878,769</td><td class="mn">878,769</td><td class="mn" style="color:#2ECC71">0</td><td><span class="st st-ok">✅ OK</span></td></tr><tr style="background:"><td class="bd2">28/04/2026</td><td class="mn">22,946</td><td class="mn">1,906</td><td class="mn">7,033</td><td class="mn">31,885</td><td class="mn bd2">885,304</td><td class="mn">885,304</td><td class="mn" style="color:#2ECC71">0</td><td><span class="st st-ok">✅ OK</span></td></tr><tr style="background:"><td class="bd2">29/04/2026</td><td class="mn">22,177</td><td class="mn">1,948</td><td class="mn">7,758</td><td class="mn">31,883</td><td class="mn bd2">872,139</td><td class="mn">872,139</td><td class="mn" style="color:#2ECC71">0</td><td><span class="st st-ok">✅ OK</span></td></tr><tr style="background:"><td class="bd2">30/04/2026</td><td class="mn">22,637</td><td class="mn">2,081</td><td class="mn">6,943</td><td class="mn">31,661</td><td class="mn bd2">882,870</td><td class="mn">882,870</td><td class="mn" style="color:#2ECC71">0</td><td><span class="st st-ok">✅ OK</span></td></tr><tr class="tr-tot"><td>TOTAL AVRIL 2026</td><td class="mn">727,551</td><td class="mn">67,972</td><td class="mn">271,061</td><td class="mn">1,066,584</td><td class="mn">29,001,570</td><td class="mn">29,001,260</td><td class="mn">310</td><td>—</td></tr></tbody>
+    </table></div></div>
+  </div>
+
+  <!-- ══ CUVES ══ -->
+  <div class="page" id="page-cuves">
+    <div class="sec">Niveaux actuels — 6 cuves</div>
+    <div id="cuves-grid"><div class="g3"><div class="card"><div class="cl">Gasoil — Cuve 1</div><div class="cv md" style="color:#5BB8E8;margin-bottom:7px">19,544 L</div><div class="fb-tr" style="margin-bottom:4px"><div class="fb-fl fg-bar" style="width:39%"></div></div><div style="display:flex;justify-content:space-between;font-size:10px;color:var(--muted);margin-bottom:8px"><span>39% de capacité</span><span>max: 50,000 L</span></div><span class="st st-ok">✅ Normal</span></div><div class="card"><div class="cl">Gasoil — Cuve 2</div><div class="cv md" style="color:#5BB8E8;margin-bottom:7px">20,098 L</div><div class="fb-tr" style="margin-bottom:4px"><div class="fb-fl fg-bar" style="width:40%"></div></div><div style="display:flex;justify-content:space-between;font-size:10px;color:var(--muted);margin-bottom:8px"><span>40% de capacité</span><span>max: 50,000 L</span></div><span class="st st-ok">✅ Normal</span></div><div class="card"><div class="cl">Gasoil — Cuve 3</div><div class="cv md" style="color:#5BB8E8;margin-bottom:7px">12,934 L</div><div class="fb-tr" style="margin-bottom:4px"><div class="fb-fl fg-bar" style="width:43%"></div></div><div style="display:flex;justify-content:space-between;font-size:10px;color:var(--muted);margin-bottom:8px"><span>43% de capacité</span><span>max: 30,000 L</span></div><span class="st st-ok">✅ Normal</span></div><div class="card"><div class="cl">Essence — Cuve 1</div><div class="cv md" style="color:var(--gold);margin-bottom:7px">7,470 L</div><div class="fb-tr" style="margin-bottom:4px"><div class="fb-fl fw-bar" style="width:25%"></div></div><div style="display:flex;justify-content:space-between;font-size:10px;color:var(--muted);margin-bottom:8px"><span>25% de capacité</span><span>max: 30,000 L</span></div><span class="st st-w">🟠 Bas</span></div><div class="card"><div class="cl">Essence — Cuve 2</div><div class="cv md" style="color:var(--gold);margin-bottom:7px">6,563 L</div><div class="fb-tr" style="margin-bottom:4px"><div class="fb-fl fw-bar" style="width:22%"></div></div><div style="display:flex;justify-content:space-between;font-size:10px;color:var(--muted);margin-bottom:8px"><span>22% de capacité</span><span>max: 30,000 L</span></div><span class="st st-w">🟠 Bas</span></div><div class="card"><div class="cl">GPL — Cuve 1</div><div class="cv md" style="color:#2ECC71;margin-bottom:7px">20,000 L</div><div class="fb-tr" style="margin-bottom:4px"><div class="fb-fl fp-bar" style="width:100%"></div></div><div style="display:flex;justify-content:space-between;font-size:10px;color:var(--muted);margin-bottom:8px"><span>100% de capacité</span><span>max: 20,000 L</span></div><span class="st st-ok">✅ Normal</span></div></div></div>
+    <div class="sec">Prévision de commande — basée sur consommation réelle Avril</div>
+    <div class="tw"><div class="tw-scroll"><table>
+      <thead><tr><th>Carburant</th><th>Stock total (L)</th><th>Conso moy/jour (L)</th><th>Jours restants</th><th>Date épuisement estimée</th><th>Alerte</th></tr></thead>
+      <tbody id="prev-cuves-body"><tr><td class="bd2">⛽ Gasoil</td><td class="mn">52,576</td><td class="mn">24,252</td><td class="bd2">2 jours</td><td class="mn">15/06/2026</td><td><span class="st st-r">🔴 URGENT</span></td></tr><tr><td class="bd2">🟡 Essence</td><td class="mn">14,033</td><td class="mn">2,266</td><td class="bd2">6 jours</td><td class="mn">19/06/2026</td><td><span class="st st-w">🟠 Commander</span></td></tr><tr><td class="bd2">🟢 GPL</td><td class="mn">20,000</td><td class="mn">9,035</td><td class="bd2">2 jours</td><td class="mn">15/06/2026</td><td><span class="st st-r">🔴 URGENT</span></td></tr></tbody>
+    </table></div></div>
+    <div class="sec">Enregistrer une livraison</div>
+    <div class="card" style="max-width:460px">
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:11px">
+        <div class="fg"><label class="fl">Carburant</label><select class="fi" id="l-type"><option value="g">Gasoil</option><option value="e">Essence</option><option value="p">GPL</option></select></div>
+        <div class="fg"><label class="fl">Quantité (L)</label><input class="fi" type="number" id="l-qty" placeholder="ex: 40000"></div>
+        <div class="fg" style="grid-column:1/-1"><label class="fl">Fournisseur / Bon de livraison N°</label><input class="fi" type="text" id="l-bon" placeholder="ex: Naftal BL-2026-054" style="font-family:&#39;DM Sans&#39;,sans-serif"></div>
+      </div>
+      <button class="btn btn-p" style="margin-top:13px" onclick="addLiv()">📦 Enregistrer la livraison</button>
+    </div>
+  </div>
+
+  <!-- ══ CRÉDIT CLIENTS ══ -->
+  <div class="page" id="page-credit">
+    <div class="g4" style="margin-bottom:16px">
+      <div class="card"><div class="cl">Total Dû</div><div class="cv rd md">19,316,695 DA</div><div class="cs">Tous les 69 clients</div></div>
+      <div class="card"><div class="cl">🔴 En cours (+30j)</div><div class="cv md" style="color:#E74C3C" id="cr-encours">15,202,131 DA</div><div class="cs">Priorité recouvrement</div></div>
+      <div class="card"><div class="cl">🟡 Partiellement payé</div><div class="cv md gld" id="cr-partiel">4,114,565 DA</div><div class="cs">En cours de règlement</div></div>
+      <div class="card"><div class="cl">✅ Soldés</div><div class="cv grn md" id="cr-solde">7 clients soldés</div><div class="cs">Compte soldé</div></div>
+    </div>
+
+    <!-- ADD CLIENT -->
+    <div class="add-form">
+      <div class="add-form-title">➕ Ajouter un nouveau client</div>
+      <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr auto;gap:9px;align-items:end">
+        <div class="fg"><label class="fl">Nom du client</label><input class="fi" type="text" id="nc-nom" placeholder="NOM PRÉNOM / SOCIÉTÉ" style="font-family:&#39;DM Sans&#39;,sans-serif"></div>
+        <div class="fg"><label class="fl">Montant crédit (DA)</label><input class="fi" type="number" id="nc-mnt" placeholder="0"></div>
+        <div class="fg"><label class="fl">Mois concerné</label>
+          <select class="fi" id="nc-mois">
+            <option value="jan">Janvier</option><option value="fev">Février</option><option value="mars">Mars</option>
+            <option value="avr" selected="">Avril</option><option value="mai">Mai</option><option value="juin">Juin</option>
+            <option value="juil">Juillet</option><option value="aout">Août</option><option value="sept">Septembre</option>
+            <option value="oct">Octobre</option><option value="nov">Novembre</option><option value="dec">Décembre</option>
+          </select>
+        </div>
+        <div class="fg"><label class="fl">Statut initial</label>
+          <select class="fi" id="nc-st"><option value="retard">🔴 En cours</option><option value="partiel">🟡 Partiel</option></select>
+        </div>
+        <button class="btn btn-p" onclick="addClient()">Ajouter</button>
+      </div>
+    </div>
+
+    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;margin-bottom:11px">
+      <div class="filters">
+        <button class="btn btn-s btn-sm" onclick="filtreC(&#39;all&#39;)">Tous (<span id="fc-all">69</span>)</button>
+        <button class="btn btn-s btn-sm" onclick="filtreC(&#39;retard&#39;)">🔴 En cours</button>
+        <button class="btn btn-s btn-sm" onclick="filtreC(&#39;partiel&#39;)">🟡 Partiel</button>
+        <button class="btn btn-s btn-sm" onclick="filtreC(&#39;solde&#39;)">✅ Soldés</button>
+      </div>
+      <div class="search-wrap"><input type="text" placeholder="Rechercher un client..." oninput="searchCredit(this.value)"></div>
+    </div>
+
+    <div class="tw"><div class="tw-scroll"><table>
+      <thead><tr><th>#</th><th>Nom / Client</th><th>Fév DA</th><th>Mars DA</th><th>Avr DA</th><th>Mai DA</th><th>Juin DA</th><th>Total Dû</th><th>Montant Payé</th><th>Solde Restant</th><th>Statut</th><th>Actions</th></tr></thead>
+      <tbody id="credit-body"><tr>
+      <td class="mn">1</td>
+      <td class="bd2">RAFES FAISEL</td>
+      <td class="mn">19,000 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">19,000 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">19,000 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(1)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">2</td>
+      <td class="bd2">OMRAN MOHAMED</td>
+      <td class="mn">575,590 DA</td>
+      <td class="mn">337,200 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">912,790 DA</td>
+      <td class="mn" style="color:#2ECC71">500,000 DA</td>
+      <td class="mn bd2" style="color:#E74C3C">412,790 DA</td>
+      <td><span class="st st-w">🟡 Partiel</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(2)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">3</td>
+      <td class="bd2">BEMAJINA AMHAMED</td>
+      <td class="mn">—</td>
+      <td class="mn">238,950 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">238,950 DA</td>
+      <td class="mn" style="color:#2ECC71">238,950 DA</td>
+      <td class="mn bd2" style="color:#2ECC71">✓ 0</td>
+      <td><span class="st st-ok">✅ Soldé</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(3)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">4</td>
+      <td class="bd2">SAREL ALAJIL</td>
+      <td class="mn">2,274,960 DA</td>
+      <td class="mn">1,236,620 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">3,511,580 DA</td>
+      <td class="mn" style="color:#2ECC71">2,274,960 DA</td>
+      <td class="mn bd2" style="color:#E74C3C">1,236,620 DA</td>
+      <td><span class="st st-w">🟡 Partiel</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(4)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">5</td>
+      <td class="bd2">BENAMARA ALARBI</td>
+      <td class="mn">709,550 DA</td>
+      <td class="mn">639,000 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">1,348,550 DA</td>
+      <td class="mn" style="color:#2ECC71">634,550 DA</td>
+      <td class="mn bd2" style="color:#E74C3C">714,000 DA</td>
+      <td><span class="st st-w">🟡 Partiel</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(5)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">6</td>
+      <td class="bd2">BENALOU HOUCINE</td>
+      <td class="mn">622,250 DA</td>
+      <td class="mn">188,300 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">810,550 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">810,550 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(6)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">7</td>
+      <td class="bd2">BENALOU RACHED</td>
+      <td class="mn">823,500 DA</td>
+      <td class="mn">269,120 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">1,092,620 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">1,092,620 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(7)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">8</td>
+      <td class="bd2">BENALOU DJELOULE</td>
+      <td class="mn">902,250 DA</td>
+      <td class="mn">147,600 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">1,049,850 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">1,049,850 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(8)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">9</td>
+      <td class="bd2">ZEROUFI ABDELKADER</td>
+      <td class="mn">—</td>
+      <td class="mn">93,110 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">93,110 DA</td>
+      <td class="mn" style="color:#2ECC71">93,110 DA</td>
+      <td class="mn bd2" style="color:#2ECC71">✓ 0</td>
+      <td><span class="st st-ok">✅ Soldé</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(9)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">10</td>
+      <td class="bd2">ZEROUFI DJILALI</td>
+      <td class="mn">177,870 DA</td>
+      <td class="mn">121,260 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">299,130 DA</td>
+      <td class="mn" style="color:#2ECC71">299,130 DA</td>
+      <td class="mn bd2" style="color:#2ECC71">✓ 0</td>
+      <td><span class="st st-ok">✅ Soldé</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(10)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">11</td>
+      <td class="bd2">ZEROUFI ELGHALLI</td>
+      <td class="mn">169,830 DA</td>
+      <td class="mn">17,500 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">187,330 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">187,330 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(11)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">12</td>
+      <td class="bd2">NAEAK FARID</td>
+      <td class="mn">73,220 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">73,220 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">73,220 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(12)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">13</td>
+      <td class="bd2">BENALOU TAHER</td>
+      <td class="mn">838,910 DA</td>
+      <td class="mn">193,750 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">1,032,660 DA</td>
+      <td class="mn" style="color:#2ECC71">200,000 DA</td>
+      <td class="mn bd2" style="color:#E74C3C">832,660 DA</td>
+      <td><span class="st st-w">🟡 Partiel</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(13)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">14</td>
+      <td class="bd2">BENALOU NOURELDINE</td>
+      <td class="mn">479,430 DA</td>
+      <td class="mn">266,700 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">746,130 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">746,130 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(14)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">15</td>
+      <td class="bd2">CHERDOUDA ABDELKARIM</td>
+      <td class="mn">98,500 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">98,500 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">98,500 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(15)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">16</td>
+      <td class="bd2">BENALOU NEDAR</td>
+      <td class="mn">1,263,190 DA</td>
+      <td class="mn">252,610 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">1,515,800 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">1,515,800 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(16)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">17</td>
+      <td class="bd2">SLIMANE ALFATMI</td>
+      <td class="mn">64,580 DA</td>
+      <td class="mn">612,210 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">676,790 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">676,790 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(17)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">18</td>
+      <td class="bd2">GATAZ MELOUDE</td>
+      <td class="mn">291,020 DA</td>
+      <td class="mn">399,990 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">691,010 DA</td>
+      <td class="mn" style="color:#2ECC71">291,000 DA</td>
+      <td class="mn bd2" style="color:#E74C3C">400,010 DA</td>
+      <td><span class="st st-w">🟡 Partiel</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(18)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">19</td>
+      <td class="bd2">SELAF ABDELHAKIM</td>
+      <td class="mn">576,830 DA</td>
+      <td class="mn">121,600 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">698,430 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">698,430 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(19)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">20</td>
+      <td class="bd2">BENKRIA MOHAMED</td>
+      <td class="mn">464,500 DA</td>
+      <td class="mn">139,810 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">604,310 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">604,310 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(20)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">21</td>
+      <td class="bd2">BENKHAIRA ALCHIKH</td>
+      <td class="mn">—</td>
+      <td class="mn">49,100 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">49,100 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">49,100 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(21)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">22</td>
+      <td class="bd2">CHAOICHI IDRIS</td>
+      <td class="mn">84,915 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">84,915 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">84,915 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(22)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">23</td>
+      <td class="bd2">AMARI TAHER</td>
+      <td class="mn">850,455 DA</td>
+      <td class="mn">200,400 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">1,050,855 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">1,050,855 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(23)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">24</td>
+      <td class="bd2">HEWARI FOUEAD</td>
+      <td class="mn">139,400 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">139,400 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">139,400 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(24)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">25</td>
+      <td class="bd2">MEZWAGH NOURELDINE</td>
+      <td class="mn">210,400 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">210,400 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">210,400 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(25)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">26</td>
+      <td class="bd2">BENHAMIDA NOURELDINE</td>
+      <td class="mn">252,300 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">252,300 DA</td>
+      <td class="mn" style="color:#2ECC71">100,000 DA</td>
+      <td class="mn bd2" style="color:#E74C3C">152,300 DA</td>
+      <td><span class="st st-w">🟡 Partiel</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(26)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">27</td>
+      <td class="bd2">BENAHMED SOURIA</td>
+      <td class="mn">12,250 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">12,250 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">12,250 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(27)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">28</td>
+      <td class="bd2">BEHIHE AICHA</td>
+      <td class="mn">11,930 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">11,930 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">11,930 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(28)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">29</td>
+      <td class="bd2">BOCHOUKA AHMED</td>
+      <td class="mn">416,620 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">416,620 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">416,620 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(29)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">30</td>
+      <td class="bd2">PENALOPE</td>
+      <td class="mn">579,950 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">579,950 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">579,950 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(30)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">31</td>
+      <td class="bd2">OUMARE BOUMERDES</td>
+      <td class="mn">248,000 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">248,000 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">248,000 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(31)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">32</td>
+      <td class="bd2">HELAFI LEKHDER</td>
+      <td class="mn">76,040 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">76,040 DA</td>
+      <td class="mn" style="color:#2ECC71">76,040 DA</td>
+      <td class="mn bd2" style="color:#2ECC71">✓ 0</td>
+      <td><span class="st st-ok">✅ Soldé</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(32)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">33</td>
+      <td class="bd2">SONAMAG</td>
+      <td class="mn">44,310 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">44,310 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">44,310 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(33)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">34</td>
+      <td class="bd2">BENDAHA</td>
+      <td class="mn">109,000 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">109,000 DA</td>
+      <td class="mn" style="color:#2ECC71">20,000 DA</td>
+      <td class="mn bd2" style="color:#E74C3C">89,000 DA</td>
+      <td><span class="st st-w">🟡 Partiel</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(34)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">35</td>
+      <td class="bd2">BALADIYA MECHARAESFA</td>
+      <td class="mn">350 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">350 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">350 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(35)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">36</td>
+      <td class="bd2">MOHAMED ELWAHRANI</td>
+      <td class="mn">1,200 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">1,200 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">1,200 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(36)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">37</td>
+      <td class="bd2">PILOT RAHOUIA</td>
+      <td class="mn">950,493 DA</td>
+      <td class="mn">190,520 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">1,141,013 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">1,141,013 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(37)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">38</td>
+      <td class="bd2">PILOT MECHARAESFA</td>
+      <td class="mn">716,480 DA</td>
+      <td class="mn">187,200 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">903,680 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">903,680 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(38)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">39</td>
+      <td class="bd2">BALADIYA WADSLAM</td>
+      <td class="mn">131,500 DA</td>
+      <td class="mn">162,210 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">293,710 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">293,710 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(39)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">40</td>
+      <td class="bd2">ELHIMAYA ELMADANIA</td>
+      <td class="mn">19,573 DA</td>
+      <td class="mn">5,000 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">24,573 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">24,573 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(40)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">41</td>
+      <td class="bd2">FIRKAT DARK MACHARAESFA</td>
+      <td class="mn">—</td>
+      <td class="mn">23,722 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">23,722 DA</td>
+      <td class="mn" style="color:#2ECC71">4,547 DA</td>
+      <td class="mn bd2" style="color:#E74C3C">19,175 DA</td>
+      <td><span class="st st-w">🟡 Partiel</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(41)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">42</td>
+      <td class="bd2">DARK MASHARASFA</td>
+      <td class="mn">15,372 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">15,372 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">15,372 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(42)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">43</td>
+      <td class="bd2">DARK RHOUIA</td>
+      <td class="mn">17,883 DA</td>
+      <td class="mn">21,595 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">39,478 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">39,478 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(43)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">44</td>
+      <td class="bd2">DARK BENAMAR</td>
+      <td class="mn">27,981 DA</td>
+      <td class="mn">12,989 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">40,970 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">40,970 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(44)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">45</td>
+      <td class="bd2">ONA</td>
+      <td class="mn">66,050 DA</td>
+      <td class="mn">17,400 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">83,450 DA</td>
+      <td class="mn" style="color:#2ECC71">25,000 DA</td>
+      <td class="mn bd2" style="color:#E74C3C">58,450 DA</td>
+      <td><span class="st st-w">🟡 Partiel</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(45)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">46</td>
+      <td class="bd2">BENNEDJMA HOUCINE</td>
+      <td class="mn">17,800 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">17,800 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">17,800 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(46)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">47</td>
+      <td class="bd2">BENZINEB ADA</td>
+      <td class="mn">40,000 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">40,000 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">40,000 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(47)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">48</td>
+      <td class="bd2">FALEH BENTRAI</td>
+      <td class="mn">12,000 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">12,000 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">12,000 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(48)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">49</td>
+      <td class="bd2">SIF MOHAMED</td>
+      <td class="mn">—</td>
+      <td class="mn">34,850 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">34,850 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">34,850 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(49)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">50</td>
+      <td class="bd2">AHMED SAIF</td>
+      <td class="mn">1,000 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">1,000 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">1,000 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(50)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">51</td>
+      <td class="bd2">CREDIT NP</td>
+      <td class="mn">74,620 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">74,620 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">74,620 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(51)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">52</td>
+      <td class="bd2">BOUKHER HOUCINEAHMED</td>
+      <td class="mn">87,000 DA</td>
+      <td class="mn">63,700 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">150,700 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">150,700 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(52)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">53</td>
+      <td class="bd2">ABDALI FELAH</td>
+      <td class="mn">32,600 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">32,600 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">32,600 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(53)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">54</td>
+      <td class="bd2">MEZILI KHALED</td>
+      <td class="mn">9,845 DA</td>
+      <td class="mn">8,000 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">17,845 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">17,845 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(54)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">55</td>
+      <td class="bd2">ABDELBAR</td>
+      <td class="mn">12,000 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">12,000 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">12,000 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(55)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">56</td>
+      <td class="bd2">AZAIZ AHMED</td>
+      <td class="mn">101,800 DA</td>
+      <td class="mn">29,300 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">131,100 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">131,100 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(56)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">57</td>
+      <td class="bd2">AWALI</td>
+      <td class="mn">—</td>
+      <td class="mn">188,600 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">188,600 DA</td>
+      <td class="mn" style="color:#2ECC71">188,600 DA</td>
+      <td class="mn bd2" style="color:#2ECC71">✓ 0</td>
+      <td><span class="st st-ok">✅ Soldé</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(57)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">58</td>
+      <td class="bd2">KHALFA MJEDED</td>
+      <td class="mn">241,560 DA</td>
+      <td class="mn">108,000 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">349,560 DA</td>
+      <td class="mn" style="color:#2ECC71">150,000 DA</td>
+      <td class="mn bd2" style="color:#E74C3C">199,560 DA</td>
+      <td><span class="st st-w">🟡 Partiel</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(58)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">59</td>
+      <td class="bd2">BOUZIANE HABIB</td>
+      <td class="mn">247,330 DA</td>
+      <td class="mn">268,530 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">515,860 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">515,860 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(59)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">60</td>
+      <td class="bd2">ARAR AMAR</td>
+      <td class="mn">47,120 DA</td>
+      <td class="mn">67,000 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">114,120 DA</td>
+      <td class="mn" style="color:#2ECC71">114,120 DA</td>
+      <td class="mn bd2" style="color:#2ECC71">✓ 0</td>
+      <td><span class="st st-ok">✅ Soldé</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(60)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">61</td>
+      <td class="bd2">NOURDINNE ELMAHI</td>
+      <td class="mn">88,800 DA</td>
+      <td class="mn">133,600 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">222,400 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">222,400 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(61)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">62</td>
+      <td class="bd2">SNOUSI ABDELKADER</td>
+      <td class="mn">11,000 DA</td>
+      <td class="mn">166,500 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">177,500 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">177,500 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(62)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">63</td>
+      <td class="bd2">HOUAIRI</td>
+      <td class="mn">—</td>
+      <td class="mn">178,700 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">178,700 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">178,700 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(63)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">64</td>
+      <td class="bd2">MADANI</td>
+      <td class="mn">—</td>
+      <td class="mn">136,400 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">136,400 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">136,400 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(64)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">65</td>
+      <td class="bd2">BENSAID</td>
+      <td class="mn">—</td>
+      <td class="mn">151,430 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">151,430 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">151,430 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(65)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">66</td>
+      <td class="bd2">MOSTFAI</td>
+      <td class="mn">—</td>
+      <td class="mn">274,220 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">274,220 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">274,220 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(66)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">67</td>
+      <td class="bd2">WADEH ADEL</td>
+      <td class="mn">—</td>
+      <td class="mn">130,000 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">130,000 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">130,000 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(67)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">68</td>
+      <td class="bd2">BENALOU ABDELKADDER</td>
+      <td class="mn">—</td>
+      <td class="mn">34,200 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">34,200 DA</td>
+      <td class="mn" style="color:#2ECC71">34,200 DA</td>
+      <td class="mn bd2" style="color:#2ECC71">✓ 0</td>
+      <td><span class="st st-ok">✅ Soldé</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(68)">💰 Paiement</button>
+      </td>
+    </tr><tr>
+      <td class="mn">69</td>
+      <td class="bd2">BCHIRI MOHAMED</td>
+      <td class="mn">—</td>
+      <td class="mn">10,500 DA</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn">—</td>
+      <td class="mn bd2">10,500 DA</td>
+      <td class="mn" style="color:#2ECC71">—</td>
+      <td class="mn bd2" style="color:#E74C3C">10,500 DA</td>
+      <td><span class="st st-r">🔴 En cours</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(69)">💰 Paiement</button>
+      </td>
+    </tr><tr class="tr-tot"><td colspan="7">TOTAL (69 clients affichés)</td><td class="mn">24,560,903 DA</td><td class="mn">5,244,207 DA</td><td class="mn">19,316,696 DA</td><td colspan="2">—</td></tr></tbody>
+    </table></div></div>
+    <div style="font-size:10.5px;color:var(--muted);margin-top:9px" id="credit-count">69 client(s) affiché(s) sur 69 total</div>
+  </div>
+
+  <!-- ══ RAPPORT ══ -->
+  <div class="page" id="page-rapport">
+    <div class="sec">Analyse des performances — Avril 2026</div>
+    <div class="g4">
+      <div class="card"><div class="cl">Meilleur jour semaine</div><div class="cv gld" id="r-bwd">Mer</div><div class="cs" id="r-bwd-s">Moy. 1054K DA/jour</div></div>
+      <div class="card"><div class="cl">Jour le plus calme</div><div class="cv md" id="r-wwd">Sam</div><div class="cs" id="r-wwd-s">Moy. 839K DA/jour</div></div>
+      <div class="card"><div class="cl">Jours balancés</div><div class="cv grn">29 / 30</div><div class="cs">96.7% de précision</div></div>
+      <div class="card"><div class="cl">Écart total du mois</div><div class="cv rd md">310 DA</div><div class="cs">23/04 — 1 seul jour</div></div>
+    </div>
+    <div class="sec">Ventes moyennes par jour de la semaine</div>
+    <div class="card" style="padding:16px 20px"><div id="wd-chart" style="padding:4px 0"><div style="display:flex;align-items:flex-end;gap:7px;height:95px"><div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:3px;height:100%;justify-content:flex-end"><div style="font-size:9px;color:var(--muted);font-family:&#39;DM Mono&#39;,monospace">1054K</div><div style="width:100%;border-radius:3px 3px 0 0;height:65px;background:linear-gradient(180deg,#2ECC71,rgba(46,204,113,.4))"></div><div style="font-size:11px;color:var(--cream);font-weight:600">Mer</div></div><div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:3px;height:100%;justify-content:flex-end"><div style="font-size:9px;color:var(--muted);font-family:&#39;DM Mono&#39;,monospace">1002K</div><div style="width:100%;border-radius:3px 3px 0 0;height:62px;background:linear-gradient(180deg,rgba(212,160,23,.68),rgba(212,160,23,.2))"></div><div style="font-size:11px;color:var(--cream);font-weight:600">Mar</div></div><div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:3px;height:100%;justify-content:flex-end"><div style="font-size:9px;color:var(--muted);font-family:&#39;DM Mono&#39;,monospace">981K</div><div style="width:100%;border-radius:3px 3px 0 0;height:61px;background:linear-gradient(180deg,rgba(212,160,23,.68),rgba(212,160,23,.2))"></div><div style="font-size:11px;color:var(--cream);font-weight:600">Lun</div></div><div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:3px;height:100%;justify-content:flex-end"><div style="font-size:9px;color:var(--muted);font-family:&#39;DM Mono&#39;,monospace">976K</div><div style="width:100%;border-radius:3px 3px 0 0;height:60px;background:linear-gradient(180deg,rgba(212,160,23,.68),rgba(212,160,23,.2))"></div><div style="font-size:11px;color:var(--cream);font-weight:600">Jeu</div></div><div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:3px;height:100%;justify-content:flex-end"><div style="font-size:9px;color:var(--muted);font-family:&#39;DM Mono&#39;,monospace">953K</div><div style="width:100%;border-radius:3px 3px 0 0;height:59px;background:linear-gradient(180deg,rgba(212,160,23,.68),rgba(212,160,23,.2))"></div><div style="font-size:11px;color:var(--cream);font-weight:600">Ven</div></div><div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:3px;height:100%;justify-content:flex-end"><div style="font-size:9px;color:var(--muted);font-family:&#39;DM Mono&#39;,monospace">937K</div><div style="width:100%;border-radius:3px 3px 0 0;height:58px;background:linear-gradient(180deg,rgba(212,160,23,.68),rgba(212,160,23,.2))"></div><div style="font-size:11px;color:var(--cream);font-weight:600">Dim</div></div><div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:3px;height:100%;justify-content:flex-end"><div style="font-size:9px;color:var(--muted);font-family:&#39;DM Mono&#39;,monospace">839K</div><div style="width:100%;border-radius:3px 3px 0 0;height:52px;background:linear-gradient(180deg,rgba(212,160,23,.68),rgba(212,160,23,.2))"></div><div style="font-size:11px;color:var(--cream);font-weight:600">Sam</div></div></div></div></div>
+    <div class="sec">Répartition carburants — mois complet</div>
+    <div class="card" style="padding:16px 20px" id="fuel-rp">
+    <div class="fb"><div class="fb-top"><span class="fb-nm">⛽ Gasoil — 5 pompes</span><span class="fb-vl">727,551 L (68.2%) — 22,554,081 DA</span></div><div class="fb-tr"><div class="fb-fl fg-bar" style="width:68.21319277243987%"></div></div></div>
+    <div class="fb"><div class="fb-top"><span class="fb-nm">🟡 Essence — 3 pompes (dont 1 inactive)</span><span class="fb-vl">67,972 L (6.4%) — 3,194,684 DA</span></div><div class="fb-tr"><div class="fb-fl fe-bar" style="width:6.3728688973395435%"></div></div></div>
+    <div class="fb" style="margin:0"><div class="fb-top"><span class="fb-nm">🟢 GPL — 3 pompes (dont 1 inactive)</span><span class="fb-vl">271,061 L (25.4%) — 3,252,732 DA</span></div><div class="fb-tr"><div class="fb-fl fp-bar" style="width:25.413938330220592%"></div></div></div></div>
+    <div class="g2" style="margin-top:11px">
+      <div>
+        <div class="sec">Top 5 — Meilleures journées</div>
+        <div class="tw"><table><thead><tr><th>Rang</th><th>Date</th><th>Total L</th><th>Ventes DA</th></tr></thead><tbody id="top5-body"><tr><td><span style="font-family:&#39;Syne&#39;,sans-serif;font-weight:700;color:var(--gold)">#1</span></td><td class="bd2">01/04/2026</td><td class="mn">42,647</td><td class="mn bd2" style="color:var(--gold)">1,174,473 DA</td></tr><tr><td><span style="font-family:&#39;Syne&#39;,sans-serif;font-weight:700;color:var(--gold)">#2</span></td><td class="bd2">16/04/2026</td><td class="mn">40,495</td><td class="mn bd2" style="color:var(--gold)">1,127,932 DA</td></tr><tr><td><span style="font-family:&#39;Syne&#39;,sans-serif;font-weight:700;color:var(--gold)">#3</span></td><td class="bd2">14/04/2026</td><td class="mn">40,431</td><td class="mn bd2" style="color:var(--gold)">1,092,408 DA</td></tr><tr><td><span style="font-family:&#39;Syne&#39;,sans-serif;font-weight:700;color:var(--gold)">#4</span></td><td class="bd2">15/04/2026</td><td class="mn">40,833</td><td class="mn bd2" style="color:var(--gold)">1,091,617 DA</td></tr><tr><td><span style="font-family:&#39;Syne&#39;,sans-serif;font-weight:700;color:var(--gold)">#5</span></td><td class="bd2">06/04/2026</td><td class="mn">38,933</td><td class="mn bd2" style="color:var(--gold)">1,073,264 DA</td></tr></tbody></table></div>
+      </div>
+      <div>
+        <div class="sec">Bottom 5 — Journées les plus faibles</div>
+        <div class="tw"><table><thead><tr><th>Rang</th><th>Date</th><th>Total L</th><th>Ventes DA</th></tr></thead><tbody id="bot5-body"><tr><td><span style="font-family:&#39;Syne&#39;,sans-serif;font-weight:700;color:#E74C3C">#1</span></td><td class="bd2">25/04/2026</td><td class="mn">28,564</td><td class="mn bd2" style="color:#E74C3C">764,307 DA</td></tr><tr><td><span style="font-family:&#39;Syne&#39;,sans-serif;font-weight:700;color:#E74C3C">#2</span></td><td class="bd2">18/04/2026</td><td class="mn">31,117</td><td class="mn bd2" style="color:#E74C3C">846,232 DA</td></tr><tr><td><span style="font-family:&#39;Syne&#39;,sans-serif;font-weight:700;color:#E74C3C">#3</span></td><td class="bd2">11/04/2026</td><td class="mn">31,405</td><td class="mn bd2" style="color:#E74C3C">848,926 DA</td></tr><tr><td><span style="font-family:&#39;Syne&#39;,sans-serif;font-weight:700;color:#E74C3C">#4</span></td><td class="bd2">23/04/2026</td><td class="mn">31,638</td><td class="mn bd2" style="color:#E74C3C">852,540 DA</td></tr><tr><td><span style="font-family:&#39;Syne&#39;,sans-serif;font-weight:700;color:#E74C3C">#5</span></td><td class="bd2">29/04/2026</td><td class="mn">31,883</td><td class="mn bd2" style="color:#E74C3C">872,139 DA</td></tr></tbody></table></div>
+      </div>
+    </div>
+    <div class="sec">Rapport mensuel complet — Carburants</div>
+    <div class="tw"><table>
+      <thead><tr><th>Carburant</th><th>Litres Vendus</th><th>Prix/L</th><th>Valeur DA</th><th>% du total litres</th><th>% du chiffre d'affaires</th></tr></thead>
+      <tbody id="rp-fuel-body">
+    <tr><td class="bd2">⛽ Gasoil</td><td class="mn">727,551</td><td class="mn">31 DA/L</td><td class="mn bd2" style="color:#5BB8E8">22,554,081 DA</td><td class="mn">68.2%</td><td class="mn">77.8%</td></tr>
+    <tr><td class="bd2">🟡 Essence</td><td class="mn">67,972</td><td class="mn">47 DA/L</td><td class="mn bd2" style="color:var(--gold)">3,194,684 DA</td><td class="mn">6.4%</td><td class="mn">11.0%</td></tr>
+    <tr><td class="bd2">🟢 GPL</td><td class="mn">271,061</td><td class="mn">12 DA/L</td><td class="mn bd2" style="color:#2ECC71">3,252,732 DA</td><td class="mn">25.4%</td><td class="mn">11.2%</td></tr>
+    <tr class="tr-tot"><td>TOTAL</td><td class="mn">1,066,584 L</td><td class="mn">—</td><td class="mn">29,001,497 DA</td><td class="mn">100%</td><td class="mn">100%</td></tr></tbody>
+    </table></div>
+  </div>
+
+  <!-- ══ PRÉVISIONS ══ -->
+  <div class="page" id="page-prev">
+    <div class="sec">Jours de stock restants — Basé sur consommation réelle Avril 2026</div>
+    <div id="prev-full"><div class="g3"><div class="card" style="text-align:center;padding:20px"><div style="font-size:26px;margin-bottom:7px">⛽</div><div style="font-family:&#39;Syne&#39;,sans-serif;font-size:11px;font-weight:700;color:var(--muted);letter-spacing:.06em;text-transform:uppercase;margin-bottom:4px">Gasoil</div><div style="font-family:&#39;Syne&#39;,sans-serif;font-size:36px;font-weight:800;color:#5BB8E8;line-height:1">2</div><div style="font-size:11px;color:var(--muted);margin-bottom:11px">jours restants</div><div class="fb-tr" style="margin-bottom:8px"><div class="fb-fl fg-bar" style="width:7%"></div></div><div style="font-size:10.5px;color:var(--muted);margin-bottom:7px">Épuisement estimé : <strong style="color:var(--cream)">15/06/2026</strong></div><div style="font-size:12px;font-weight:700;color:#E74C3C">🔴 COMMANDER URGENT</div></div><div class="card" style="text-align:center;padding:20px"><div style="font-size:26px;margin-bottom:7px">🟡</div><div style="font-family:&#39;Syne&#39;,sans-serif;font-size:11px;font-weight:700;color:var(--muted);letter-spacing:.06em;text-transform:uppercase;margin-bottom:4px">Essence</div><div style="font-family:&#39;Syne&#39;,sans-serif;font-size:36px;font-weight:800;color:var(--gold);line-height:1">6</div><div style="font-size:11px;color:var(--muted);margin-bottom:11px">jours restants</div><div class="fb-tr" style="margin-bottom:8px"><div class="fb-fl fe-bar" style="width:20%"></div></div><div style="font-size:10.5px;color:var(--muted);margin-bottom:7px">Épuisement estimé : <strong style="color:var(--cream)">19/06/2026</strong></div><div style="font-size:12px;font-weight:700;color:#F39C12">🟠 Commander bientôt</div></div><div class="card" style="text-align:center;padding:20px"><div style="font-size:26px;margin-bottom:7px">🟢</div><div style="font-family:&#39;Syne&#39;,sans-serif;font-size:11px;font-weight:700;color:var(--muted);letter-spacing:.06em;text-transform:uppercase;margin-bottom:4px">GPL</div><div style="font-family:&#39;Syne&#39;,sans-serif;font-size:36px;font-weight:800;color:#2ECC71;line-height:1">2</div><div style="font-size:11px;color:var(--muted);margin-bottom:11px">jours restants</div><div class="fb-tr" style="margin-bottom:8px"><div class="fb-fl fp-bar" style="width:7%"></div></div><div style="font-size:10.5px;color:var(--muted);margin-bottom:7px">Épuisement estimé : <strong style="color:var(--cream)">15/06/2026</strong></div><div style="font-size:12px;font-weight:700;color:#E74C3C">🔴 COMMANDER URGENT</div></div></div></div>
+    <div class="sec">Consommation moyenne journalière — Avril 2026 (30 jours)</div>
+    <div class="g3">
+      <div class="card" style="text-align:center;padding:20px">
+        <div style="font-size:26px;margin-bottom:7px">⛽</div>
+        <div style="font-family:&#39;Syne&#39;,sans-serif;font-size:28px;font-weight:800;color:#5BB8E8">24,252</div>
+        <div style="font-size:11px;color:var(--muted);margin-top:3px">L de Gasoil / jour</div>
+        <div style="font-size:10.5px;color:var(--muted);margin-top:2px">727,551 L sur 30 jours</div>
+        <div style="font-size:10.5px;color:var(--muted);margin-top:2px">5 pompes actives</div>
+      </div>
+      <div class="card" style="text-align:center;padding:20px">
+        <div style="font-size:26px;margin-bottom:7px">🟡</div>
+        <div style="font-family:&#39;Syne&#39;,sans-serif;font-size:28px;font-weight:800;color:var(--gold)">2,266</div>
+        <div style="font-size:11px;color:var(--muted);margin-top:3px">L d'Essence / jour</div>
+        <div style="font-size:10.5px;color:var(--muted);margin-top:2px">67,972 L sur 30 jours</div>
+        <div style="font-size:10.5px;color:var(--muted);margin-top:2px">3 pompes (dont 1 inactive)</div>
+      </div>
+      <div class="card" style="text-align:center;padding:20px">
+        <div style="font-size:26px;margin-bottom:7px">🟢</div>
+        <div style="font-family:&#39;Syne&#39;,sans-serif;font-size:28px;font-weight:800;color:#2ECC71">9,035</div>
+        <div style="font-size:11px;color:var(--muted);margin-top:3px">L de GPL / jour</div>
+        <div style="font-size:10.5px;color:var(--muted);margin-top:2px">271,061 L sur 30 jours</div>
+        <div style="font-size:10.5px;color:var(--muted);margin-top:2px">3 pompes (dont 1 inactive)</div>
+      </div>
+    </div>
+    <div class="sec">Note sur les pompes inactives</div>
+    <div class="card" style="padding:14px 17px">
+      <div style="font-size:12px;color:var(--muted);line-height:1.7">
+        En avril, <strong style="color:var(--cream)">Essence 2</strong> et <strong style="color:var(--cream)">GPL 2</strong> n'ont enregistré aucune vente (relevé début = relevé fin). La consommation moyenne est calculée sur les 30 jours du mois, ce qui donne une base conservative. En cas de réouverture de ces pompes, la consommation réelle sera plus élevée et les jours restants moins nombreux.
+      </div>
+    </div>
+  </div>
+
+  </div><!-- /content -->
+</main>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>
+// ════════════════════════════
+//  FULL DATA — AVRIL 2026
+// ════════════════════════════
+const AVRIL=[
+  {d:'01/04',g:29926,e:2689,p:10032,l:42647,v:1174473,enc:1174473,ec:0},
+  {d:'02/04',g:23316,e:2447,p:12354,l:38117,v:986053,enc:986053,ec:0},
+  {d:'03/04',g:25311,e:3085,p:10534,l:38930,v:1056044,enc:1056044,ec:0},
+  {d:'04/04',g:19257,e:3129,p:12723,l:35109,v:896706,enc:896706,ec:0},
+  {d:'05/04',g:23604,e:2831,p:7841,l:34276,v:958945,enc:958945,ec:0},
+  {d:'06/04',g:27702,e:2278,p:8953,l:38933,v:1073264,enc:1073264,ec:0},
+  {d:'07/04',g:25803,e:2481,p:8735,l:37019,v:1021320,enc:1021320,ec:0},
+  {d:'08/04',g:26699,e:2610,p:10128,l:39437,v:1071875,enc:1071875,ec:0},
+  {d:'09/04',g:26231,e:2315,p:9139,l:37685,v:1031635,enc:1031635,ec:0},
+  {d:'10/04',g:23687,e:2356,p:8302,l:34345,v:944653,enc:944653,ec:0},
+  {d:'11/04',g:21364,e:1890,p:8151,l:31405,v:848926,enc:848926,ec:0},
+  {d:'12/04',g:23488,e:2211,p:9289,l:34988,v:943513,enc:943513,ec:0},
+  {d:'13/04',g:25614,e:1227,p:9385,l:36226,v:964323,enc:964323,ec:0},
+  {d:'14/04',g:28329,e:1971,p:10131,l:40431,v:1092408,enc:1092408,ec:0},
+  {d:'15/04',g:27934,e:2025,p:10874,l:40833,v:1091617,enc:1091617,ec:0},
+  {d:'16/04',g:30033,e:2039,p:8423,l:40495,v:1127932,enc:1127932,ec:0},
+  {d:'17/04',g:23599,e:2091,p:8223,l:33913,v:928522,enc:928522,ec:0},
+  {d:'18/04',g:20822,e:2206,p:8089,l:31117,v:846232,enc:846232,ec:0},
+  {d:'19/04',g:23572,e:2804,p:9076,l:35452,v:971432,enc:971432,ec:0},
+  {d:'20/04',g:25017,e:2568,p:9414,l:36999,v:1009191,enc:1009191,ec:0},
+  {d:'21/04',g:26358,e:1978,p:8381,l:36717,v:1010636,enc:1010636,ec:0},
+  {d:'22/04',g:27520,e:2186,p:8646,l:38352,v:1059614,enc:1059614,ec:0},
+  {d:'23/04',g:21151,e:2029,p:8458,l:31638,v:852540,enc:852230,ec:310},
+  {d:'24/04',g:21457,e:2275,p:9206,l:32938,v:882564,enc:882564,ec:0},
+  {d:'25/04',g:19191,e:1626,p:7747,l:28564,v:764307,enc:764307,ec:0},
+  {d:'26/04',g:20454,e:2759,p:9168,l:32381,v:873763,enc:873763,ec:0},
+  {d:'27/04',g:22352,e:1931,p:7925,l:32208,v:878769,enc:878769,ec:0},
+  {d:'28/04',g:22946,e:1906,p:7033,l:31885,v:885304,enc:885304,ec:0},
+  {d:'29/04',g:22177,e:1948,p:7758,l:31883,v:872139,enc:872139,ec:0},
+  {d:'30/04',g:22637,e:2081,p:6943,l:31661,v:882870,enc:882870,ec:0},
+];
+
+// 11 POMPES — EXACTEMENT COMME DANS LE FICHIER
+const POMPES=[
+  {nom:'Gasoil 1',type:'g',deb:9665161,fin:9666219,l:1058,v:32798},
+  {nom:'Gasoil 2',type:'g',deb:636870,fin:649909,l:13039,v:404209},
+  {nom:'Gasoil 3',type:'g',deb:7017476,fin:7018669,l:1193,v:36983},
+  {nom:'Gasoil 4',type:'g',deb:5954721,fin:5959447,l:4726,v:146506},
+  {nom:'Gasoil 5',type:'g',deb:6850013,fin:6852634,l:2621,v:81251},
+  {nom:'Essence 1',type:'e',deb:1419437,fin:1420248,l:811,v:38117},
+  {nom:'Essence 2',type:'e',deb:3864858,fin:3864858,l:0,v:0},
+  {nom:'Essence 3',type:'e',deb:2707698,fin:2708968,l:1270,v:59690},
+  {nom:'GPL 1',type:'p',deb:497385,fin:500880,l:3495,v:41940},
+  {nom:'GPL 2',type:'p',deb:359283,fin:359283,l:0,v:0},
+  {nom:'GPL 3',type:'p',deb:2331834,fin:2335282,l:3448,v:41376},
+];
+
+// 6 CUVES
+let CUVES=[
+  {nom:'Gasoil — Cuve 1',type:'g',cap:50000,stock:19544},
+  {nom:'Gasoil — Cuve 2',type:'g',cap:50000,stock:20098},
+  {nom:'Gasoil — Cuve 3',type:'g',cap:30000,stock:12934},
+  {nom:'Essence — Cuve 1',type:'e',cap:30000,stock:7470},
+  {nom:'Essence — Cuve 2',type:'e',cap:30000,stock:6563},
+  {nom:'GPL — Cuve 1',type:'p',cap:20000,stock:20000},
+];
+
+// 69 CLIENTS — DONNÉES EXACTES DU FICHIER
+let CREDIT=[
+  {id:1,nom:'RAFES FAISEL',jan:0,fev:19000,mars:0,avr:0,mai:0,juin:0,paye:0,st:'retard'},
+  {id:2,nom:'OMRAN MOHAMED',jan:0,fev:575590,mars:337200,avr:0,mai:0,juin:0,paye:500000,st:'partiel'},
+  {id:3,nom:'BEMAJINA AMHAMED',jan:0,fev:0,mars:238950,avr:0,mai:0,juin:0,paye:238950,st:'solde'},
+  {id:4,nom:'SAREL ALAJIL',jan:0,fev:2274960,mars:1236620,avr:0,mai:0,juin:0,paye:2274960,st:'partiel'},
+  {id:5,nom:'BENAMARA ALARBI',jan:0,fev:709550,mars:639000,avr:0,mai:0,juin:0,paye:634550,st:'partiel'},
+  {id:6,nom:'BENALOU HOUCINE',jan:0,fev:622250,mars:188300,avr:0,mai:0,juin:0,paye:0,st:'retard'},
+  {id:7,nom:'BENALOU RACHED',jan:0,fev:823500,mars:269120,avr:0,mai:0,juin:0,paye:0,st:'retard'},
+  {id:8,nom:'BENALOU DJELOULE',jan:0,fev:902250,mars:147600,avr:0,mai:0,juin:0,paye:0,st:'retard'},
+  {id:9,nom:'ZEROUFI ABDELKADER',jan:0,fev:0,mars:93110,avr:0,mai:0,juin:0,paye:93110,st:'solde'},
+  {id:10,nom:'ZEROUFI DJILALI',jan:0,fev:177870,mars:121260,avr:0,mai:0,juin:0,paye:299130,st:'solde'},
+  {id:11,nom:'ZEROUFI ELGHALLI',jan:0,fev:169830,mars:17500,avr:0,mai:0,juin:0,paye:0,st:'retard'},
+  {id:12,nom:'NAEAK FARID',jan:0,fev:73220,mars:0,avr:0,mai:0,juin:0,paye:0,st:'retard'},
+  {id:13,nom:'BENALOU TAHER',jan:0,fev:838910,mars:193750,avr:0,mai:0,juin:0,paye:200000,st:'partiel'},
+  {id:14,nom:'BENALOU NOURELDINE',jan:0,fev:479430,mars:266700,avr:0,mai:0,juin:0,paye:0,st:'retard'},
+  {id:15,nom:'CHERDOUDA ABDELKARIM',jan:0,fev:98500,mars:0,avr:0,mai:0,juin:0,paye:0,st:'retard'},
+  {id:16,nom:'BENALOU NEDAR',jan:0,fev:1263190,mars:252610,avr:0,mai:0,juin:0,paye:0,st:'retard'},
+  {id:17,nom:'SLIMANE ALFATMI',jan:0,fev:64580,mars:612210,avr:0,mai:0,juin:0,paye:0,st:'retard'},
+  {id:18,nom:'GATAZ MELOUDE',jan:0,fev:291020,mars:399990,avr:0,mai:0,juin:0,paye:291000,st:'partiel'},
+  {id:19,nom:'SELAF ABDELHAKIM',jan:0,fev:576830,mars:121600,avr:0,mai:0,juin:0,paye:0,st:'retard'},
+  {id:20,nom:'BENKRIA MOHAMED',jan:0,fev:464500,mars:139810,avr:0,mai:0,juin:0,paye:0,st:'retard'},
+  {id:21,nom:'BENKHAIRA ALCHIKH',jan:0,fev:0,mars:49100,avr:0,mai:0,juin:0,paye:0,st:'retard'},
+  {id:22,nom:'CHAOICHI IDRIS',jan:0,fev:84915,mars:0,avr:0,mai:0,juin:0,paye:0,st:'retard'},
+  {id:23,nom:'AMARI TAHER',jan:0,fev:850455,mars:200400,avr:0,mai:0,juin:0,paye:0,st:'retard'},
+  {id:24,nom:'HEWARI FOUEAD',jan:0,fev:139400,mars:0,avr:0,mai:0,juin:0,paye:0,st:'retard'},
+  {id:25,nom:'MEZWAGH NOURELDINE',jan:0,fev:210400,mars:0,avr:0,mai:0,juin:0,paye:0,st:'retard'},
+  {id:26,nom:'BENHAMIDA NOURELDINE',jan:0,fev:252300,mars:0,avr:0,mai:0,juin:0,paye:100000,st:'partiel'},
+  {id:27,nom:'BENAHMED SOURIA',jan:0,fev:12250,mars:0,avr:0,mai:0,juin:0,paye:0,st:'retard'},
+  {id:28,nom:'BEHIHE AICHA',jan:0,fev:11930,mars:0,avr:0,mai:0,juin:0,paye:0,st:'retard'},
+  {id:29,nom:'BOCHOUKA AHMED',jan:0,fev:416620,mars:0,avr:0,mai:0,juin:0,paye:0,st:'retard'},
+  {id:30,nom:'PENALOPE',jan:0,fev:579950,mars:0,avr:0,mai:0,juin:0,paye:0,st:'retard'},
+  {id:31,nom:'OUMARE BOUMERDES',jan:0,fev:248000,mars:0,avr:0,mai:0,juin:0,paye:0,st:'retard'},
+  {id:32,nom:'HELAFI LEKHDER',jan:0,fev:76040,mars:0,avr:0,mai:0,juin:0,paye:76040,st:'solde'},
+  {id:33,nom:'SONAMAG',jan:0,fev:44310,mars:0,avr:0,mai:0,juin:0,paye:0,st:'retard'},
+  {id:34,nom:'BENDAHA',jan:0,fev:109000,mars:0,avr:0,mai:0,juin:0,paye:20000,st:'partiel'},
+  {id:35,nom:'BALADIYA MECHARAESFA',jan:0,fev:350,mars:0,avr:0,mai:0,juin:0,paye:0,st:'retard'},
+  {id:36,nom:'MOHAMED ELWAHRANI',jan:0,fev:1200,mars:0,avr:0,mai:0,juin:0,paye:0,st:'retard'},
+  {id:37,nom:'PILOT RAHOUIA',jan:0,fev:950493,mars:190520,avr:0,mai:0,juin:0,paye:0,st:'retard'},
+  {id:38,nom:'PILOT MECHARAESFA',jan:0,fev:716480,mars:187200,avr:0,mai:0,juin:0,paye:0,st:'retard'},
+  {id:39,nom:'BALADIYA WADSLAM',jan:0,fev:131500,mars:162210,avr:0,mai:0,juin:0,paye:0,st:'retard'},
+  {id:40,nom:'ELHIMAYA ELMADANIA',jan:0,fev:19573,mars:5000,avr:0,mai:0,juin:0,paye:0,st:'retard'},
+  {id:41,nom:'FIRKAT DARK MACHARAESFA',jan:0,fev:0,mars:23722,avr:0,mai:0,juin:0,paye:4547,st:'partiel'},
+  {id:42,nom:'DARK MASHARASFA',jan:0,fev:15372,mars:0,avr:0,mai:0,juin:0,paye:0,st:'retard'},
+  {id:43,nom:'DARK RHOUIA',jan:0,fev:17883,mars:21595,avr:0,mai:0,juin:0,paye:0,st:'retard'},
+  {id:44,nom:'DARK BENAMAR',jan:0,fev:27981,mars:12989,avr:0,mai:0,juin:0,paye:0,st:'retard'},
+  {id:45,nom:'ONA',jan:0,fev:66050,mars:17400,avr:0,mai:0,juin:0,paye:25000,st:'partiel'},
+  {id:46,nom:'BENNEDJMA HOUCINE',jan:0,fev:17800,mars:0,avr:0,mai:0,juin:0,paye:0,st:'retard'},
+  {id:47,nom:'BENZINEB ADA',jan:0,fev:40000,mars:0,avr:0,mai:0,juin:0,paye:0,st:'retard'},
+  {id:48,nom:'FALEH BENTRAI',jan:0,fev:12000,mars:0,avr:0,mai:0,juin:0,paye:0,st:'retard'},
+  {id:49,nom:'SIF MOHAMED',jan:0,fev:0,mars:34850,avr:0,mai:0,juin:0,paye:0,st:'retard'},
+  {id:50,nom:'AHMED SAIF',jan:0,fev:1000,mars:0,avr:0,mai:0,juin:0,paye:0,st:'retard'},
+  {id:51,nom:'CREDIT NP',jan:0,fev:74620,mars:0,avr:0,mai:0,juin:0,paye:0,st:'retard'},
+  {id:52,nom:'BOUKHER HOUCINEAHMED',jan:0,fev:87000,mars:63700,avr:0,mai:0,juin:0,paye:0,st:'retard'},
+  {id:53,nom:'ABDALI FELAH',jan:0,fev:32600,mars:0,avr:0,mai:0,juin:0,paye:0,st:'retard'},
+  {id:54,nom:'MEZILI KHALED',jan:0,fev:9845,mars:8000,avr:0,mai:0,juin:0,paye:0,st:'retard'},
+  {id:55,nom:'ABDELBAR',jan:0,fev:12000,mars:0,avr:0,mai:0,juin:0,paye:0,st:'retard'},
+  {id:56,nom:'AZAIZ AHMED',jan:0,fev:101800,mars:29300,avr:0,mai:0,juin:0,paye:0,st:'retard'},
+  {id:57,nom:'AWALI',jan:0,fev:0,mars:188600,avr:0,mai:0,juin:0,paye:188600,st:'solde'},
+  {id:58,nom:'KHALFA MJEDED',jan:0,fev:241560,mars:108000,avr:0,mai:0,juin:0,paye:150000,st:'partiel'},
+  {id:59,nom:'BOUZIANE HABIB',jan:0,fev:247330,mars:268530,avr:0,mai:0,juin:0,paye:0,st:'retard'},
+  {id:60,nom:'ARAR AMAR',jan:0,fev:47120,mars:67000,avr:0,mai:0,juin:0,paye:114120,st:'solde'},
+  {id:61,nom:'NOURDINNE ELMAHI',jan:0,fev:88800,mars:133600,avr:0,mai:0,juin:0,paye:0,st:'retard'},
+  {id:62,nom:'SNOUSI ABDELKADER',jan:0,fev:11000,mars:166500,avr:0,mai:0,juin:0,paye:0,st:'retard'},
+  {id:63,nom:'HOUAIRI',jan:0,fev:0,mars:178700,avr:0,mai:0,juin:0,paye:0,st:'retard'},
+  {id:64,nom:'MADANI',jan:0,fev:0,mars:136400,avr:0,mai:0,juin:0,paye:0,st:'retard'},
+  {id:65,nom:'BENSAID',jan:0,fev:0,mars:151430,avr:0,mai:0,juin:0,paye:0,st:'retard'},
+  {id:66,nom:'MOSTFAI',jan:0,fev:0,mars:274220,avr:0,mai:0,juin:0,paye:0,st:'retard'},
+  {id:67,nom:'WADEH ADEL',jan:0,fev:0,mars:130000,avr:0,mai:0,juin:0,paye:0,st:'retard'},
+  {id:68,nom:'BENALOU ABDELKADDER',jan:0,fev:0,mars:34200,avr:0,mai:0,juin:0,paye:34200,st:'solde'},
+  {id:69,nom:'BCHIRI MOHAMED',jan:0,fev:0,mars:10500,avr:0,mai:0,juin:0,paye:0,st:'retard'},
+];
+
+const MOY={g:Math.round(727551/30),e:Math.round(67972/30),p:Math.round(271061/30)};
+let creditFilter='all', creditSearch='';
+
+// ════════════════════════════
+//  NAV
+// ════════════════════════════
+const TITLES={db:['Tableau de Bord','Vue d\'ensemble — Station Naftal BENSAKHRIA'],saisie:['Saisie Journalière','11 pompes — Relevés début/fin par pompe'],hist:['Historique','30 journées enregistrées — Avril 2026'],cuves:['Cuves & Stocks','6 cuves — Niveaux et prévisions'],credit:['Crédit Clients','69 clients actifs — Registre complet avec ajout possible'],rapport:['Rapport Mensuel','Analyses et performances — Avril 2026'],prev:['Prévisions Stock','Jours restants basés sur consommation réelle']};
+function nav(p){
+  document.querySelectorAll('.page').forEach(x=>x.classList.remove('on'));
+  document.querySelectorAll('.ni').forEach(x=>x.classList.remove('on'));
+  document.getElementById('page-'+p).classList.add('on');
+  document.querySelector(`[onclick="nav('${p}')"]`).classList.add('on');
+  const[t,s]=TITLES[p];
+  document.getElementById('pt').textContent=t;
+  document.getElementById('ps').textContent=s;
+}
+
+// ════════════════════════════
+//  DASHBOARD RENDERS
+// ════════════════════════════
+function renderChart(){
+  const mx=Math.max(...AVRIL.map(d=>d.v)),mn=Math.min(...AVRIL.map(d=>d.v));
+  document.getElementById('chart-main').innerHTML=AVRIL.map(d=>{
+    const h=Math.round(d.v/mx*88);
+    const cls=d.v===mx?'best':d.v===mn?'low':'';
+    return`<div class="cb-w" title="${d.d}: ${d.v.toLocaleString()} DA"><div class="cb ${cls}" style="height:${h}%"></div><div class="cx">${d.d.split('/')[0]}</div></div>`;
+  }).join('');
+}
+
+function renderFuelBars(id){
+  const tg=727551,te=67972,tp=271061,tt=1066584;
+  document.getElementById(id).innerHTML=`
+    <div class="fb"><div class="fb-top"><span class="fb-nm">⛽ Gasoil — 5 pompes</span><span class="fb-vl">${tg.toLocaleString()} L (${(tg/tt*100).toFixed(1)}%) — 22,554,081 DA</span></div><div class="fb-tr"><div class="fb-fl fg-bar" style="width:${tg/tt*100}%"></div></div></div>
+    <div class="fb"><div class="fb-top"><span class="fb-nm">🟡 Essence — 3 pompes (dont 1 inactive)</span><span class="fb-vl">${te.toLocaleString()} L (${(te/tt*100).toFixed(1)}%) — 3,194,684 DA</span></div><div class="fb-tr"><div class="fb-fl fe-bar" style="width:${te/tt*100}%"></div></div></div>
+    <div class="fb" style="margin:0"><div class="fb-top"><span class="fb-nm">🟢 GPL — 3 pompes (dont 1 inactive)</span><span class="fb-vl">${tp.toLocaleString()} L (${(tp/tt*100).toFixed(1)}%) — 3,252,732 DA</span></div><div class="fb-tr"><div class="fb-fl fp-bar" style="width:${tp/tt*100}%"></div></div></div>`;
+}
+
+function renderPumpLast(){
+  let h='';
+  POMPES.forEach(p=>{
+    const tag=p.type==='g'?'<span class="p-tag tg">Gasoil</span>':p.type==='e'?'<span class="p-tag te">Essence</span>':'<span class="p-tag tp">GPL</span>';
+    const col=p.type==='g'?'#5BB8E8':p.type==='e'?'var(--gold)':'#2ECC71';
+    const st=p.l===0?'<span class="st st-n">Inactive</span>':'<span class="st st-ok">Active</span>';
+    h+=`<tr><td class="bd2">${p.nom}</td><td>${tag}</td><td class="mn">${p.deb.toLocaleString()}</td><td class="mn">${p.fin.toLocaleString()}</td><td style="font-family:'Syne',sans-serif;font-weight:700;color:${col}">${p.l.toLocaleString()} L</td><td class="mn" style="color:var(--muted)">${p.v.toLocaleString()} DA</td><td>${st}</td></tr>`;
+  });
+  document.getElementById('pump-last-body').innerHTML=h;
+}
+
+// ════════════════════════════
+//  HISTORIQUE
+// ════════════════════════════
+function renderHist(){
+  const mx=Math.max(...AVRIL.map(d=>d.v)),mn=Math.min(...AVRIL.map(d=>d.v));
+  let h='';
+  AVRIL.forEach(d=>{
+    const st=d.ec===0?'<span class="st st-ok">✅ OK</span>':'<span class="st st-w">⚠️ +'+d.ec+' DA</span>';
+    const bg=d.v===mx?'rgba(46,204,113,.025)':d.v===mn?'rgba(231,76,60,.025)':'';
+    h+=`<tr style="background:${bg}"><td class="bd2">${d.d}/2026</td><td class="mn">${d.g.toLocaleString()}</td><td class="mn">${d.e.toLocaleString()}</td><td class="mn">${d.p.toLocaleString()}</td><td class="mn">${d.l.toLocaleString()}</td><td class="mn bd2">${d.v.toLocaleString()}</td><td class="mn">${d.enc.toLocaleString()}</td><td class="mn" style="color:${d.ec>0?'#F39C12':'#2ECC71'}">${d.ec}</td><td>${st}</td></tr>`;
+  });
+  const tot=AVRIL.reduce((a,d)=>({g:a.g+d.g,e:a.e+d.e,p:a.p+d.p,l:a.l+d.l,v:a.v+d.v,enc:a.enc+d.enc,ec:a.ec+d.ec}),{g:0,e:0,p:0,l:0,v:0,enc:0,ec:0});
+  h+=`<tr class="tr-tot"><td>TOTAL AVRIL 2026</td><td class="mn">${tot.g.toLocaleString()}</td><td class="mn">${tot.e.toLocaleString()}</td><td class="mn">${tot.p.toLocaleString()}</td><td class="mn">${tot.l.toLocaleString()}</td><td class="mn">${tot.v.toLocaleString()}</td><td class="mn">${tot.enc.toLocaleString()}</td><td class="mn">${tot.ec}</td><td>—</td></tr>`;
+  document.getElementById('hist-body').innerHTML=h;
+}
+
+// ════════════════════════════
+//  CUVES
+// ════════════════════════════
+function renderCuves(){
+  let h='<div class="g3">';
+  CUVES.forEach(c=>{
+    const pct=c.stock/c.cap,pd=Math.round(pct*100);
+    const bc=pct<.2?'fd-bar':pct<.35?'fw-bar':c.type==='g'?'fg-bar':c.type==='e'?'fe-bar':'fp-bar';
+    const sc=pct<.2?'st-r':pct<.35?'st-w':'st-ok';
+    const st=pct<.2?'🔴 CRITIQUE':pct<.35?'🟠 Bas':'✅ Normal';
+    const col=c.type==='g'?'#5BB8E8':c.type==='e'?'var(--gold)':'#2ECC71';
+    h+=`<div class="card"><div class="cl">${c.nom}</div><div class="cv md" style="color:${col};margin-bottom:7px">${c.stock.toLocaleString()} L</div><div class="fb-tr" style="margin-bottom:4px"><div class="fb-fl ${bc}" style="width:${pd}%"></div></div><div style="display:flex;justify-content:space-between;font-size:10px;color:var(--muted);margin-bottom:8px"><span>${pd}% de capacité</span><span>max: ${c.cap.toLocaleString()} L</span></div><span class="st ${sc}">${st}</span></div>`;
+  });
+  h+='</div>';
+  document.getElementById('cuves-grid').innerHTML=h;
+  renderPrevCuves();
+}
+
+function renderPrevCuves(){
+  const stocks={g:CUVES.filter(c=>c.type==='g').reduce((a,c)=>a+c.stock,0),e:CUVES.filter(c=>c.type==='e').reduce((a,c)=>a+c.stock,0),p:CUVES.filter(c=>c.type==='p').reduce((a,c)=>a+c.stock,0)};
+  const today=new Date();let h='';
+  [{k:'g',n:'⛽ Gasoil'},{k:'e',n:'🟡 Essence'},{k:'p',n:'🟢 GPL'}].forEach(f=>{
+    const j=Math.floor(stocks[f.k]/MOY[f.k]);
+    const de=new Date(today.getTime()+j*864e5);
+    const al=j<=3?'<span class="st st-r">🔴 URGENT</span>':j<=7?'<span class="st st-w">🟠 Commander</span>':'<span class="st st-ok">✅ OK</span>';
+    h+=`<tr><td class="bd2">${f.n}</td><td class="mn">${stocks[f.k].toLocaleString()}</td><td class="mn">${MOY[f.k].toLocaleString()}</td><td class="bd2">${j} jours</td><td class="mn">${de.toLocaleDateString('fr-FR')}</td><td>${al}</td></tr>`;
+  });
+  document.getElementById('prev-cuves-body').innerHTML=h;
+}
+
+function addLiv(){
+  const t=document.getElementById('l-type').value;
+  const q=parseFloat(document.getElementById('l-qty').value)||0;
+  if(q<=0){toast('❌ Entrez une quantité valide','er');return;}
+  const cx=CUVES.filter(c=>c.type===t);
+  cx.forEach(c=>c.stock=Math.min(c.cap,c.stock+q/cx.length));
+  renderCuves();
+  toast(`✅ ${q.toLocaleString()} L de livraison enregistrés`);
+  document.getElementById('l-qty').value='';
+  document.getElementById('l-bon').value='';
+}
+
+// ════════════════════════════
+//  CRÉDIT CLIENTS — 69 + ajout
+// ════════════════════════════
+function totalClient(c){return c.jan+c.fev+c.mars+c.avr+c.mai+c.juin;}
+function soldeClient(c){return totalClient(c)-c.paye;}
+
+function renderCredit(){
+  // Mise à jour compteurs
+  const encours=CREDIT.filter(c=>c.st==='retard');
+  const partiel=CREDIT.filter(c=>c.st==='partiel');
+  const solde=CREDIT.filter(c=>c.st==='solde');
+  document.getElementById('cr-encours').textContent=encours.reduce((a,c)=>a+soldeClient(c),0).toLocaleString()+' DA';
+  document.getElementById('cr-partiel').textContent=partiel.reduce((a,c)=>a+soldeClient(c),0).toLocaleString()+' DA';
+  document.getElementById('cr-solde').textContent=solde.length+' clients soldés';
+  document.getElementById('fc-all').textContent=CREDIT.length;
+
+  let data=[...CREDIT];
+  if(creditFilter!=='all')data=data.filter(c=>c.st===creditFilter);
+  if(creditSearch)data=data.filter(c=>c.nom.toLowerCase().includes(creditSearch.toLowerCase()));
+
+  let h='';
+  data.forEach(c=>{
+    const tot=totalClient(c),sol=soldeClient(c);
+    const sc=c.st==='solde'?'st-ok':c.st==='partiel'?'st-w':'st-r';
+    const stTxt=c.st==='solde'?'✅ Soldé':c.st==='partiel'?'🟡 Partiel':'🔴 En cours';
+    const fmtDA=v=>v>0?v.toLocaleString()+' DA':'—';
+    h+=`<tr>
+      <td class="mn">${c.id}</td>
+      <td class="bd2">${c.nom}</td>
+      <td class="mn">${fmtDA(c.fev)}</td>
+      <td class="mn">${fmtDA(c.mars)}</td>
+      <td class="mn">${fmtDA(c.avr)}</td>
+      <td class="mn">${fmtDA(c.mai)}</td>
+      <td class="mn">${fmtDA(c.juin)}</td>
+      <td class="mn bd2">${tot>0?tot.toLocaleString()+' DA':'—'}</td>
+      <td class="mn" style="color:#2ECC71">${c.paye>0?c.paye.toLocaleString()+' DA':'—'}</td>
+      <td class="mn bd2" style="color:${sol>0?'#E74C3C':'#2ECC71'}">${sol>0?sol.toLocaleString()+' DA':'✓ 0'}</td>
+      <td><span class="st ${sc}">${stTxt}</span></td>
+      <td>
+        <button class="btn btn-s" style="padding:4px 9px;font-size:10px" onclick="enrPaiement(${c.id})">💰 Paiement</button>
+      </td>
+    </tr>`;
+  });
+
+  // Total row
+  const totAll=data.reduce((a,c)=>a+totalClient(c),0);
+  const payeAll=data.reduce((a,c)=>a+c.paye,0);
+  const soldeAll=data.reduce((a,c)=>a+soldeClient(c),0);
+  h+=`<tr class="tr-tot"><td colspan="7">TOTAL (${data.length} clients affichés)</td><td class="mn">${totAll.toLocaleString()} DA</td><td class="mn">${payeAll.toLocaleString()} DA</td><td class="mn">${soldeAll.toLocaleString()} DA</td><td colspan="2">—</td></tr>`;
+
+  document.getElementById('credit-body').innerHTML=h;
+  document.getElementById('credit-count').textContent=`${data.length} client(s) affiché(s) sur ${CREDIT.length} total`;
+}
+
+function filtreC(f){creditFilter=f;renderCredit();}
+function searchCredit(v){creditSearch=v;renderCredit();}
+
+function addClient(){
+  const nom=document.getElementById('nc-nom').value.trim().toUpperCase();
+  const mnt=parseFloat(document.getElementById('nc-mnt').value)||0;
+  const mois=document.getElementById('nc-mois').value;
+  const st=document.getElementById('nc-st').value;
+  if(!nom){toast('❌ Entrez le nom du client','er');return;}
+  if(mnt<=0){toast('❌ Entrez un montant','er');return;}
+  const newId=Math.max(...CREDIT.map(c=>c.id))+1;
+  const nc={id:newId,nom,jan:0,fev:0,mars:0,avr:0,mai:0,juin:0,paye:0,st};
+  nc[mois]=mnt;
+  CREDIT.push(nc);
+  renderCredit();
+  document.getElementById('nc-nom').value='';
+  document.getElementById('nc-mnt').value='';
+  toast(`✅ ${nom} ajouté — ${mnt.toLocaleString()} DA`);
+}
+
+function enrPaiement(id){
+  const c=CREDIT.find(x=>x.id===id);
+  if(!c)return;
+  const sol=soldeClient(c);
+  const mnt=prompt(`💰 PAIEMENT — ${c.nom}\nSolde actuel : ${sol.toLocaleString()} DA\n\nMontant reçu (DA) :`);
+  if(!mnt||isNaN(parseFloat(mnt)))return;
+  const m=parseFloat(mnt);
+  c.paye+=m;
+  if(soldeClient(c)<=0)c.st='solde';
+  else if(c.paye>0)c.st='partiel';
+  renderCredit();
+  toast(`✅ Paiement de ${m.toLocaleString()} DA enregistré pour ${c.nom}`);
+}
+
+// ════════════════════════════
+//  RAPPORT
+// ════════════════════════════
+function renderRapport(){
+  const jN=['Dim','Lun','Mar','Mer','Jeu','Ven','Sam'];
+  const byJ={};jN.forEach(j=>byJ[j]=[]);
+  AVRIL.forEach((d,i)=>byJ[jN[(3+i)%7]].push(d.v)); // 01/04/2026 = Mercredi (index 3)
+  const moys=jN.map(j=>({j,m:byJ[j].length?Math.round(byJ[j].reduce((a,b)=>a+b,0)/byJ[j].length):0})).sort((a,b)=>b.m-a.m);
+  document.getElementById('r-bwd').textContent=moys[0].j;
+  document.getElementById('r-bwd-s').textContent='Moy. '+(moys[0].m/1000).toFixed(0)+'K DA/jour';
+  document.getElementById('r-wwd').textContent=moys[moys.length-1].j;
+  document.getElementById('r-wwd-s').textContent='Moy. '+(moys[moys.length-1].m/1000).toFixed(0)+'K DA/jour';
+  const mx=Math.max(...moys.map(m=>m.m));
+  document.getElementById('wd-chart').innerHTML=`<div style="display:flex;align-items:flex-end;gap:7px;height:95px">${moys.map(m=>`<div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:3px;height:100%;justify-content:flex-end"><div style="font-size:9px;color:var(--muted);font-family:'DM Mono',monospace">${(m.m/1000).toFixed(0)}K</div><div style="width:100%;border-radius:3px 3px 0 0;height:${Math.round(m.m/mx*65)}px;background:${m===moys[0]?'linear-gradient(180deg,#2ECC71,rgba(46,204,113,.4))':'linear-gradient(180deg,rgba(212,160,23,.68),rgba(212,160,23,.2))'}"></div><div style="font-size:11px;color:var(--cream);font-weight:600">${m.j}</div></div>`).join('')}</div>`;
+  renderFuelBars('fuel-rp');
+  const s=[...AVRIL].sort((a,b)=>b.v-a.v);
+  const mkRow=(d,i,col)=>`<tr><td><span style="font-family:'Syne',sans-serif;font-weight:700;color:${col}">#${i+1}</span></td><td class="bd2">${d.d}/2026</td><td class="mn">${d.l.toLocaleString()}</td><td class="mn bd2" style="color:${col}">${d.v.toLocaleString()} DA</td></tr>`;
+  document.getElementById('top5-body').innerHTML=s.slice(0,5).map((d,i)=>mkRow(d,i,'var(--gold)')).join('');
+  document.getElementById('bot5-body').innerHTML=s.slice(-5).reverse().map((d,i)=>mkRow(d,i,'#E74C3C')).join('');
+  // Fuel detail table
+  const tt=1066584,tv=29001497;
+  document.getElementById('rp-fuel-body').innerHTML=`
+    <tr><td class="bd2">⛽ Gasoil</td><td class="mn">727,551</td><td class="mn">31 DA/L</td><td class="mn bd2" style="color:#5BB8E8">22,554,081 DA</td><td class="mn">${(727551/tt*100).toFixed(1)}%</td><td class="mn">${(22554081/tv*100).toFixed(1)}%</td></tr>
+    <tr><td class="bd2">🟡 Essence</td><td class="mn">67,972</td><td class="mn">47 DA/L</td><td class="mn bd2" style="color:var(--gold)">3,194,684 DA</td><td class="mn">${(67972/tt*100).toFixed(1)}%</td><td class="mn">${(3194684/tv*100).toFixed(1)}%</td></tr>
+    <tr><td class="bd2">🟢 GPL</td><td class="mn">271,061</td><td class="mn">12 DA/L</td><td class="mn bd2" style="color:#2ECC71">3,252,732 DA</td><td class="mn">${(271061/tt*100).toFixed(1)}%</td><td class="mn">${(3252732/tv*100).toFixed(1)}%</td></tr>
+    <tr class="tr-tot"><td>TOTAL</td><td class="mn">1,066,584 L</td><td class="mn">—</td><td class="mn">29,001,497 DA</td><td class="mn">100%</td><td class="mn">100%</td></tr>`;
+}
+
+// ════════════════════════════
+//  PRÉVISIONS
+// ════════════════════════════
+function renderPrev(){
+  const stocks={g:CUVES.filter(c=>c.type==='g').reduce((a,c)=>a+c.stock,0),e:CUVES.filter(c=>c.type==='e').reduce((a,c)=>a+c.stock,0),p:CUVES.filter(c=>c.type==='p').reduce((a,c)=>a+c.stock,0)};
+  const today=new Date();let h='<div class="g3">';
+  [{k:'g',ic:'⛽',col:'#5BB8E8',nm:'Gasoil',bc:'fg-bar'},{k:'e',ic:'🟡',col:'var(--gold)',nm:'Essence',bc:'fe-bar'},{k:'p',ic:'🟢',col:'#2ECC71',nm:'GPL',bc:'fp-bar'}].forEach(f=>{
+    const j=Math.floor(stocks[f.k]/MOY[f.k]);
+    const de=new Date(today.getTime()+j*864e5);
+    const pct=Math.min(100,Math.round(j/30*100));
+    const al=j<=3?'🔴 COMMANDER URGENT':j<=7?'🟠 Commander bientôt':'✅ Stock suffisant';
+    const ac=j<=3?'#E74C3C':j<=7?'#F39C12':'#2ECC71';
+    h+=`<div class="card" style="text-align:center;padding:20px"><div style="font-size:26px;margin-bottom:7px">${f.ic}</div><div style="font-family:'Syne',sans-serif;font-size:11px;font-weight:700;color:var(--muted);letter-spacing:.06em;text-transform:uppercase;margin-bottom:4px">${f.nm}</div><div style="font-family:'Syne',sans-serif;font-size:36px;font-weight:800;color:${f.col};line-height:1">${j}</div><div style="font-size:11px;color:var(--muted);margin-bottom:11px">jours restants</div><div class="fb-tr" style="margin-bottom:8px"><div class="fb-fl ${f.bc}" style="width:${pct}%"></div></div><div style="font-size:10.5px;color:var(--muted);margin-bottom:7px">Épuisement estimé : <strong style="color:var(--cream)">${de.toLocaleDateString('fr-FR')}</strong></div><div style="font-size:12px;font-weight:700;color:${ac}">${al}</div></div>`;
+  });
+  h+='</div>';
+  document.getElementById('prev-full').innerHTML=h;
+}
+
+// ════════════════════════════
+//  SAISIE — POMPES
+// ════════════════════════════
+function buildSaisieTables(){
+  const mkPompRow=(n,t,col)=>`<tr>
+    <td style="font-size:11.5px;font-weight:600;white-space:nowrap;padding:5px 8px">${t==='g'?'⛽':t==='e'?'🟡':'🟢'} ${t==='g'?'Gasoil':t==='e'?'Essence':'GPL'} ${n}</td>
+    <td style="padding:4px 5px"><input class="fi" type="number" id="${t}${n}d" placeholder="ex: 1234567" oninput="calcAll()" style="width:120px;padding:6px 9px;font-size:11px"></td>
+    <td style="padding:4px 5px"><input class="fi" type="number" id="${t}${n}f" placeholder="ex: 1256789" oninput="calcAll()" style="width:120px;padding:6px 9px;font-size:11px"></td>
+    <td style="padding:4px 5px"><input class="fi" id="${t}${n}l" readonly style="width:80px;padding:6px 8px;font-size:12px;font-weight:700;color:${col}"></td>
+    <td style="padding:4px 5px"><input class="fi" id="${t}${n}v" readonly style="width:105px;padding:6px 8px;font-size:10.5px;color:var(--muted)"></td>
+  </tr>`;
+  let hG=`<thead><tr><th>Pompe</th><th>Relevé Début</th><th>Relevé Fin</th><th>Litres</th><th>Valeur DA</th></tr></thead><tbody>`;
+  [1,2,3,4,5].forEach(n=>{hG+=mkPompRow(n,'g','#5BB8E8');});
+  hG+='</tbody>';
+  document.getElementById('pt-gasoil').innerHTML=hG;
+  let hE=`<thead><tr><th>Pompe</th><th>Début</th><th>Fin</th><th>Litres</th><th>Valeur</th></tr></thead><tbody>`;
+  [1,2,3].forEach(n=>{hE+=mkPompRow(n,'e','var(--gold)');});
+  hE+='</tbody>';
+  document.getElementById('pt-ess').innerHTML=hE;
+  let hP=`<thead><tr><th>Pompe</th><th>Début</th><th>Fin</th><th>Litres</th><th>Valeur</th></tr></thead><tbody>`;
+  [1,2,3].forEach(n=>{hP+=mkPompRow(n,'p','#2ECC71');});
+  hP+='</tbody>';
+  document.getElementById('pt-gpl').innerHTML=hP;
+}
+
+function calcAll(){
+  const pg=parseFloat(document.getElementById('s-pg').value)||31;
+  const pe=parseFloat(document.getElementById('s-pe').value)||47;
+  const pp=parseFloat(document.getElementById('s-pp').value)||12;
+  let tg=0,te=0,tp=0;
+  [1,2,3,4,5].forEach(n=>{
+    const d=parseFloat(document.getElementById(`g${n}d`).value)||0,f=parseFloat(document.getElementById(`g${n}f`).value)||0;
+    const l=Math.max(0,f-d);tg+=l;
+    if(document.getElementById(`g${n}l`)){document.getElementById(`g${n}l`).value=l||'';document.getElementById(`g${n}v`).value=l?(l*pg).toLocaleString()+' DA':'';}
+  });
+  [1,2,3].forEach(n=>{
+    const d=parseFloat(document.getElementById(`e${n}d`).value)||0,f=parseFloat(document.getElementById(`e${n}f`).value)||0;
+    const l=Math.max(0,f-d);te+=l;
+    if(document.getElementById(`e${n}l`)){document.getElementById(`e${n}l`).value=l||'';document.getElementById(`e${n}v`).value=l?(l*pe).toLocaleString()+' DA':'';}
+  });
+  [1,2,3].forEach(n=>{
+    const d=parseFloat(document.getElementById(`p${n}d`).value)||0,f=parseFloat(document.getElementById(`p${n}f`).value)||0;
+    const l=Math.max(0,f-d);tp+=l;
+    if(document.getElementById(`p${n}l`)){document.getElementById(`p${n}l`).value=l||'';document.getElementById(`p${n}v`).value=l?(l*pp).toLocaleString()+' DA':'';}
+  });
+  const vg=tg*pg,ve=te*pe,vp=tp*pp,vt=vg+ve+vp;
+  document.getElementById('t-g-l').textContent=tg.toLocaleString()+' L';
+  document.getElementById('t-g-da').textContent=vg.toLocaleString()+' DA';
+  document.getElementById('t-e-l').textContent=te.toLocaleString()+' L';
+  document.getElementById('t-e-da').textContent=ve.toLocaleString()+' DA';
+  document.getElementById('t-p-l').textContent=tp.toLocaleString()+' L';
+  document.getElementById('t-p-da').textContent=vp.toLocaleString()+' DA';
+  document.getElementById('t-v').textContent=vt.toLocaleString()+' DA';
+  document.getElementById('t-l').textContent=(tg+te+tp).toLocaleString()+' L';
+  document.getElementById('tot-g-sum').textContent=tg.toLocaleString()+' L — '+vg.toLocaleString()+' DA';
+  document.getElementById('tot-e-sum').textContent=te.toLocaleString()+' L — '+ve.toLocaleString()+' DA';
+  document.getElementById('tot-p-sum').textContent=tp.toLocaleString()+' L — '+vp.toLocaleString()+' DA';
+  const box=document.getElementById('v-live');
+  if(tg+te+tp===0){box.className='vb vb-n';box.innerHTML='<span>⏳</span> Entrez les relevés pompes';}
+  else{box.className='vb vb-ok';box.innerHTML=`<span>✅</span> Total ventes : <strong>${vt.toLocaleString()} DA</strong> (${(tg+te+tp).toLocaleString()} L)`;}
+  calcEnc();
+}
+
+function calcEnc(){
+  const vals=['e-esp','e-tpe','e-cred','e-comp','e-aut'].map(id=>parseFloat(document.getElementById(id).value)||0);
+  const enc=vals.reduce((a,b)=>a+b,0);
+  document.getElementById('e-tot').value=enc?enc.toLocaleString()+' DA':'';
+  const pg=parseFloat(document.getElementById('s-pg').value)||31;
+  const pe=parseFloat(document.getElementById('s-pe').value)||47;
+  const pp=parseFloat(document.getElementById('s-pp').value)||12;
+  let tg=0,te=0,tp=0;
+  [1,2,3,4,5].forEach(n=>{const d=parseFloat(document.getElementById(`g${n}d`).value)||0,f=parseFloat(document.getElementById(`g${n}f`).value)||0;tg+=Math.max(0,f-d);});
+  [1,2,3].forEach(n=>{const d=parseFloat(document.getElementById(`e${n}d`).value)||0,f=parseFloat(document.getElementById(`e${n}f`).value)||0;te+=Math.max(0,f-d);});
+  [1,2,3].forEach(n=>{const d=parseFloat(document.getElementById(`p${n}d`).value)||0,f=parseFloat(document.getElementById(`p${n}f`).value)||0;tp+=Math.max(0,f-d);});
+  const vt=tg*pg+te*pe+tp*pp;
+  const venc=document.getElementById('v-enc'),vec=document.getElementById('v-ec');
+  if(enc===0){venc.className='vb vb-n';venc.innerHTML='<span>⏳</span> Entrez les encaissements';vec.className='vb vb-n';vec.innerHTML='<span>⏳</span> En attente';return;}
+  const ec=vt-enc;
+  if(Math.abs(ec)<=1){venc.className='vb vb-ok';venc.innerHTML='<span>✅</span> Encaissements = Ventes — balance parfaite';}
+  else{venc.className='vb vb-er';venc.innerHTML=`<span>⚠️</span> Écart de <strong>${Math.abs(ec).toLocaleString()} DA</strong> — vérifiez avant d'enregistrer`;}
+  vec.className=Math.abs(ec)<=1?'vb vb-ok':'vb vb-er';
+  vec.innerHTML=Math.abs(ec)<=1?'<span>✅</span> Prêt à enregistrer':`<span>⚠️</span> Ventes: ${vt.toLocaleString()} | Encaissés: ${enc.toLocaleString()}`;
+}
+
+function valider(){
+  const d=document.getElementById('s-date').value;
+  if(!d){toast('❌ Entrez la date','er');return;}
+  const pg=parseFloat(document.getElementById('s-pg').value)||31;
+  const pe=parseFloat(document.getElementById('s-pe').value)||47;
+  const pp=parseFloat(document.getElementById('s-pp').value)||12;
+  let tg=0,te=0,tp=0;
+  [1,2,3,4,5].forEach(n=>{const dv=parseFloat(document.getElementById(`g${n}d`).value)||0,f=parseFloat(document.getElementById(`g${n}f`).value)||0;tg+=Math.max(0,f-dv);});
+  [1,2,3].forEach(n=>{const dv=parseFloat(document.getElementById(`e${n}d`).value)||0,f=parseFloat(document.getElementById(`e${n}f`).value)||0;te+=Math.max(0,f-dv);});
+  [1,2,3].forEach(n=>{const dv=parseFloat(document.getElementById(`p${n}d`).value)||0,f=parseFloat(document.getElementById(`p${n}f`).value)||0;tp+=Math.max(0,f-dv);});
+  if(tg+te+tp===0){toast('❌ Entrez au moins un relevé pompe','er');return;}
+  const vt=tg*pg+te*pe+tp*pp;
+  const vals=['e-esp','e-tpe','e-cred','e-comp','e-aut'].map(id=>parseFloat(document.getElementById(id).value)||0);
+  const enc=vals.reduce((a,b)=>a+b,0);
+  const ec=vt-enc;
+  if(Math.abs(ec)>5&&enc>0&&!confirm(`⚠️ Écart de ${Math.abs(ec).toLocaleString()} DA détecté.\nVentes: ${vt.toLocaleString()} DA\nEncaissements: ${enc.toLocaleString()} DA\n\nEnregistrer quand même ?`))return;
+  const dt=new Date(d),ds=`${String(dt.getDate()).padStart(2,'0')}/${String(dt.getMonth()+1).padStart(2,'0')}`;
+  AVRIL.push({d:ds,g:tg,e:te,p:tp,l:tg+te+tp,v:vt,enc:enc||vt,ec:ec});
+  // Déduire des cuves
+  const cg=CUVES.filter(c=>c.type==='g');cg.forEach(c=>c.stock=Math.max(0,c.stock-tg/cg.length));
+  const ce=CUVES.filter(c=>c.type==='e');ce.forEach(c=>c.stock=Math.max(0,c.stock-te/ce.length));
+  const cp=CUVES.filter(c=>c.type==='p');cp.forEach(c=>c.stock=Math.max(0,c.stock-tp/cp.length));
+  toast(`✅ Journée du ${ds} enregistrée — ${vt.toLocaleString()} DA`);
+  resetSaisie();
+}
+
+function resetSaisie(){
+  document.getElementById('s-date').value=new Date().toISOString().split('T')[0];
+  [1,2,3,4,5].forEach(n=>['d','f','l','v'].forEach(s=>{const el=document.getElementById(`g${n}${s}`);if(el)el.value='';}));
+  [1,2,3].forEach(n=>['d','f','l','v'].forEach(s=>{['e','p'].forEach(t=>{const el=document.getElementById(`${t}${n}${s}`);if(el)el.value='';})}));
+  ['e-esp','e-tpe','e-cred','e-comp','e-aut','e-tot','e-resp'].forEach(id=>{document.getElementById(id).value='';});
+  document.getElementById('tot-g-sum').textContent='0 L — 0 DA';
+  document.getElementById('tot-e-sum').textContent='0 L — 0 DA';
+  document.getElementById('tot-p-sum').textContent='0 L — 0 DA';
+  ['t-g-l','t-e-l','t-p-l'].forEach(id=>{document.getElementById(id).textContent='0 L';});
+  ['t-g-da','t-e-da','t-p-da'].forEach(id=>{document.getElementById(id).textContent='0 DA';});
+  document.getElementById('t-v').textContent='0 DA';
+  document.getElementById('t-l').textContent='0 L';
+  document.getElementById('v-live').className='vb vb-n';
+  document.getElementById('v-live').innerHTML='<span>⏳</span> Entrez les relevés pompes';
+  document.getElementById('v-enc').className='vb vb-n';
+  document.getElementById('v-enc').innerHTML='<span>⏳</span> Entrez les encaissements';
+  document.getElementById('v-ec').className='vb vb-n';
+  document.getElementById('v-ec').innerHTML='<span>⏳</span> En attente';
+}
+
+// ════════════════════════════
+//  TOAST
+// ════════════════════════════
+function toast(msg,type='ok'){
+  const el=document.getElementById('toast');
+  el.textContent=msg;
+  el.style.borderColor=type==='er'?'rgba(192,57,43,.4)':'rgba(212,160,23,.28)';
+  el.classList.add('show');
+  setTimeout(()=>el.classList.remove('show'),3200);
+}
+
+// ════════════════════════════
+//  INIT
+// ════════════════════════════
+document.addEventListener('DOMContentLoaded',()=>{
+  renderChart();
+  renderFuelBars('fuel-db');
+  renderPumpLast();
+  renderHist();
+  renderCuves();
+  renderCredit();
+  renderRapport();
+  renderPrev();
+  buildSaisieTables();
+  resetSaisie();
+});
+</script>
+
+
+</body></html>
